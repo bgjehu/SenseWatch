@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A12814DB1B4BAD8900EF6D71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12814DA1B4BAD8900EF6D71 /* AppDelegate.swift */; };
+		A12814E01B4BAD8900EF6D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12814DE1B4BAD8900EF6D71 /* Main.storyboard */; };
+		A12814E21B4BAD8900EF6D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12814E11B4BAD8900EF6D71 /* Assets.xcassets */; };
+		A12814E51B4BAD8900EF6D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12814E31B4BAD8900EF6D71 /* LaunchScreen.storyboard */; };
+		A12814EA1B4BAD8900EF6D71 /* Slider WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A12814E91B4BAD8900EF6D71 /* Slider WatchKit App.app */; };
+		A12814F01B4BAD8900EF6D71 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12814EE1B4BAD8900EF6D71 /* Interface.storyboard */; };
+		A12814F21B4BAD8900EF6D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12814F11B4BAD8900EF6D71 /* Assets.xcassets */; };
+		A12814F91B4BAD8900EF6D71 /* Slider WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A12814F81B4BAD8900EF6D71 /* Slider WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A12814FE1B4BAD8900EF6D71 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12814FD1B4BAD8900EF6D71 /* InterfaceController.swift */; };
+		A12815001B4BAD8900EF6D71 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12814FF1B4BAD8900EF6D71 /* ExtensionDelegate.swift */; };
+		A12815021B4BAD8900EF6D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12815011B4BAD8900EF6D71 /* Assets.xcassets */; };
+		A1317C6D1B53676600A47145 /* SlidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1317C6C1B53676600A47145 /* SlidesViewController.swift */; };
+		A13AA9AD1B4C9E8A001FCC50 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9A21B4C9E8A001FCC50 /* appicon.png */; };
+		A13AA9AE1B4C9E8A001FCC50 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9A21B4C9E8A001FCC50 /* appicon.png */; };
+		A13AA9AF1B4C9E8A001FCC50 /* appicon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9A31B4C9E8A001FCC50 /* appicon_120.png */; };
+		A13AA9B01B4C9E8A001FCC50 /* appicon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9A31B4C9E8A001FCC50 /* appicon_120.png */; };
+		A13AA9B11B4C9E8A001FCC50 /* appicon_172.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9A41B4C9E8A001FCC50 /* appicon_172.png */; };
+		A13AA9B21B4C9E8A001FCC50 /* appicon_172.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9A41B4C9E8A001FCC50 /* appicon_172.png */; };
+		A13AA9B31B4C9E8A001FCC50 /* appicon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9A51B4C9E8A001FCC50 /* appicon_180.png */; };
+		A13AA9B41B4C9E8A001FCC50 /* appicon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9A51B4C9E8A001FCC50 /* appicon_180.png */; };
+		A13AA9B51B4C9E8A001FCC50 /* appicon_196.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9A61B4C9E8A001FCC50 /* appicon_196.png */; };
+		A13AA9B61B4C9E8A001FCC50 /* appicon_196.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9A61B4C9E8A001FCC50 /* appicon_196.png */; };
+		A13AA9B71B4C9E8A001FCC50 /* appicon_48.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9A71B4C9E8A001FCC50 /* appicon_48.png */; };
+		A13AA9B81B4C9E8A001FCC50 /* appicon_48.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9A71B4C9E8A001FCC50 /* appicon_48.png */; };
+		A13AA9B91B4C9E8A001FCC50 /* appicon_55.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9A81B4C9E8A001FCC50 /* appicon_55.png */; };
+		A13AA9BA1B4C9E8A001FCC50 /* appicon_55.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9A81B4C9E8A001FCC50 /* appicon_55.png */; };
+		A13AA9BB1B4C9E8A001FCC50 /* appicon_58.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9A91B4C9E8A001FCC50 /* appicon_58.png */; };
+		A13AA9BC1B4C9E8A001FCC50 /* appicon_58.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9A91B4C9E8A001FCC50 /* appicon_58.png */; };
+		A13AA9BD1B4C9E8A001FCC50 /* appicon_80.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9AA1B4C9E8A001FCC50 /* appicon_80.png */; };
+		A13AA9BE1B4C9E8A001FCC50 /* appicon_80.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9AA1B4C9E8A001FCC50 /* appicon_80.png */; };
+		A13AA9BF1B4C9E8A001FCC50 /* appicon_87.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9AB1B4C9E8A001FCC50 /* appicon_87.png */; };
+		A13AA9C01B4C9E8A001FCC50 /* appicon_87.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9AB1B4C9E8A001FCC50 /* appicon_87.png */; };
+		A13AA9C11B4C9E8A001FCC50 /* appicon_88.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9AC1B4C9E8A001FCC50 /* appicon_88.png */; };
+		A13AA9C21B4C9E8A001FCC50 /* appicon_88.png in Resources */ = {isa = PBXBuildFile; fileRef = A13AA9AC1B4C9E8A001FCC50 /* appicon_88.png */; };
+		A13CE3851B5317F8005047A3 /* GKGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13CE3801B5317F8005047A3 /* GKGesture.swift */; };
+		A13CE3861B5317F8005047A3 /* GKGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13CE3801B5317F8005047A3 /* GKGesture.swift */; };
+		A13CE3891B5317F8005047A3 /* GKSensorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13CE3821B5317F8005047A3 /* GKSensorController.swift */; };
+		A13CE38A1B5317F8005047A3 /* GKSensorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13CE3821B5317F8005047A3 /* GKSensorController.swift */; };
+		A13CE38B1B5317F8005047A3 /* GKSessionControllerH.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13CE3831B5317F8005047A3 /* GKSessionControllerH.swift */; };
+		A13CE38C1B5317F8005047A3 /* GKSessionControllerH.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13CE3831B5317F8005047A3 /* GKSessionControllerH.swift */; };
+		A13CE38D1B5317F8005047A3 /* GKSessionControllerW.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13CE3841B5317F8005047A3 /* GKSessionControllerW.swift */; };
+		A13CE38E1B5317F8005047A3 /* GKSessionControllerW.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13CE3841B5317F8005047A3 /* GKSessionControllerW.swift */; };
+		A18C84001B548F8200F2A3FC /* GKGestureClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18C83FF1B548F8200F2A3FC /* GKGestureClassifier.swift */; };
+		A18C84011B548F8200F2A3FC /* GKGestureClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18C83FF1B548F8200F2A3FC /* GKGestureClassifier.swift */; };
+		A1DDDBD11B5F4BF8007B9B9D /* EKSlidesCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DDDBCA1B5F4BF8007B9B9D /* EKSlidesCache.swift */; };
+		A1DDDBD21B5F4BF8007B9B9D /* EKSlidesImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DDDBCB1B5F4BF8007B9B9D /* EKSlidesImageViewController.swift */; };
+		A1DDDBD31B5F4BF8007B9B9D /* EKSlidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DDDBCC1B5F4BF8007B9B9D /* EKSlidesViewController.swift */; };
+		A1DDDBD41B5F4BF8007B9B9D /* EKSlidesViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DDDBCD1B5F4BF8007B9B9D /* EKSlidesViewControllerProtocol.swift */; };
+		A1DDDBD51B5F4BF8007B9B9D /* EKSlidesWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DDDBCE1B5F4BF8007B9B9D /* EKSlidesWebViewController.swift */; };
+		A1DDDBD61B5F4BF8007B9B9D /* GlobalVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DDDBCF1B5F4BF8007B9B9D /* GlobalVar.swift */; };
+		A1DDDBD71B5F4BF8007B9B9D /* NativeClassExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DDDBD01B5F4BF8007B9B9D /* NativeClassExtensions.swift */; };
+		A1E291E11B53A2B100A75348 /* SlidesPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E291E01B53A2B100A75348 /* SlidesPreviewController.swift */; };
+		A1FF53DC1B5D73C300F64E7E /* CacheIndexingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FF53DB1B5D73C300F64E7E /* CacheIndexingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A12814EB1B4BAD8900EF6D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A12814CF1B4BAD8800EF6D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A12814E81B4BAD8900EF6D71;
+			remoteInfo = "Slider WatchKit App";
+		};
+		A12814FA1B4BAD8900EF6D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A12814CF1B4BAD8800EF6D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A12814F71B4BAD8900EF6D71;
+			remoteInfo = "Slider WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A12815091B4BAD8900EF6D71 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A12814F91B4BAD8900EF6D71 /* Slider WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A128150D1B4BAD8900EF6D71 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A12814EA1B4BAD8900EF6D71 /* Slider WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A12814D71B4BAD8900EF6D71 /* Slider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12814DA1B4BAD8900EF6D71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A12814DF1B4BAD8900EF6D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A12814E11B4BAD8900EF6D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A12814E41B4BAD8900EF6D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A12814E61B4BAD8900EF6D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12814E91B4BAD8900EF6D71 /* Slider WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slider WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12814EF1B4BAD8900EF6D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A12814F11B4BAD8900EF6D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A12814F31B4BAD8900EF6D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12814F81B4BAD8900EF6D71 /* Slider WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Slider WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12814FD1B4BAD8900EF6D71 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A12814FF1B4BAD8900EF6D71 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A12815011B4BAD8900EF6D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A12815031B4BAD8900EF6D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1317C6C1B53676600A47145 /* SlidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesViewController.swift; sourceTree = "<group>"; };
+		A13AA9A21B4C9E8A001FCC50 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
+		A13AA9A31B4C9E8A001FCC50 /* appicon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_120.png; sourceTree = "<group>"; };
+		A13AA9A41B4C9E8A001FCC50 /* appicon_172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_172.png; sourceTree = "<group>"; };
+		A13AA9A51B4C9E8A001FCC50 /* appicon_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_180.png; sourceTree = "<group>"; };
+		A13AA9A61B4C9E8A001FCC50 /* appicon_196.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_196.png; sourceTree = "<group>"; };
+		A13AA9A71B4C9E8A001FCC50 /* appicon_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_48.png; sourceTree = "<group>"; };
+		A13AA9A81B4C9E8A001FCC50 /* appicon_55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_55.png; sourceTree = "<group>"; };
+		A13AA9A91B4C9E8A001FCC50 /* appicon_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_58.png; sourceTree = "<group>"; };
+		A13AA9AA1B4C9E8A001FCC50 /* appicon_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_80.png; sourceTree = "<group>"; };
+		A13AA9AB1B4C9E8A001FCC50 /* appicon_87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_87.png; sourceTree = "<group>"; };
+		A13AA9AC1B4C9E8A001FCC50 /* appicon_88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_88.png; sourceTree = "<group>"; };
+		A13CE3801B5317F8005047A3 /* GKGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKGesture.swift; sourceTree = "<group>"; };
+		A13CE3821B5317F8005047A3 /* GKSensorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKSensorController.swift; sourceTree = "<group>"; };
+		A13CE3831B5317F8005047A3 /* GKSessionControllerH.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKSessionControllerH.swift; sourceTree = "<group>"; };
+		A13CE3841B5317F8005047A3 /* GKSessionControllerW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKSessionControllerW.swift; sourceTree = "<group>"; };
+		A18C83FF1B548F8200F2A3FC /* GKGestureClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKGestureClassifier.swift; sourceTree = "<group>"; };
+		A1DDDBCA1B5F4BF8007B9B9D /* EKSlidesCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EKSlidesCache.swift; sourceTree = "<group>"; };
+		A1DDDBCB1B5F4BF8007B9B9D /* EKSlidesImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EKSlidesImageViewController.swift; sourceTree = "<group>"; };
+		A1DDDBCC1B5F4BF8007B9B9D /* EKSlidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EKSlidesViewController.swift; sourceTree = "<group>"; };
+		A1DDDBCD1B5F4BF8007B9B9D /* EKSlidesViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EKSlidesViewControllerProtocol.swift; sourceTree = "<group>"; };
+		A1DDDBCE1B5F4BF8007B9B9D /* EKSlidesWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EKSlidesWebViewController.swift; sourceTree = "<group>"; };
+		A1DDDBCF1B5F4BF8007B9B9D /* GlobalVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVar.swift; sourceTree = "<group>"; };
+		A1DDDBD01B5F4BF8007B9B9D /* NativeClassExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeClassExtensions.swift; sourceTree = "<group>"; };
+		A1E291E01B53A2B100A75348 /* SlidesPreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesPreviewController.swift; sourceTree = "<group>"; };
+		A1FF53DB1B5D73C300F64E7E /* CacheIndexingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheIndexingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A12814D41B4BAD8800EF6D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12814F51B4BAD8900EF6D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A12814CE1B4BAD8800EF6D71 = {
+			isa = PBXGroup;
+			children = (
+				A13AA9A11B4C9E8A001FCC50 /* Resources */,
+				A1DDDBC91B5F4BF8007B9B9D /* ExtensionKit */,
+				A13CE37F1B5317F8005047A3 /* GestureKit */,
+				A12814D91B4BAD8900EF6D71 /* Slider */,
+				A12814ED1B4BAD8900EF6D71 /* Slider WatchKit App */,
+				A12814FC1B4BAD8900EF6D71 /* Slider WatchKit Extension */,
+				A12814D81B4BAD8900EF6D71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A12814D81B4BAD8900EF6D71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A12814D71B4BAD8900EF6D71 /* Slider.app */,
+				A12814E91B4BAD8900EF6D71 /* Slider WatchKit App.app */,
+				A12814F81B4BAD8900EF6D71 /* Slider WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A12814D91B4BAD8900EF6D71 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				A12814DA1B4BAD8900EF6D71 /* AppDelegate.swift */,
+				A12814DE1B4BAD8900EF6D71 /* Main.storyboard */,
+				A12814E11B4BAD8900EF6D71 /* Assets.xcassets */,
+				A12814E31B4BAD8900EF6D71 /* LaunchScreen.storyboard */,
+				A12814E61B4BAD8900EF6D71 /* Info.plist */,
+				A1317C6C1B53676600A47145 /* SlidesViewController.swift */,
+				A1E291E01B53A2B100A75348 /* SlidesPreviewController.swift */,
+				A1FF53DB1B5D73C300F64E7E /* CacheIndexingViewController.swift */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		A12814ED1B4BAD8900EF6D71 /* Slider WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A12814EE1B4BAD8900EF6D71 /* Interface.storyboard */,
+				A12814F11B4BAD8900EF6D71 /* Assets.xcassets */,
+				A12814F31B4BAD8900EF6D71 /* Info.plist */,
+			);
+			path = "Slider WatchKit App";
+			sourceTree = "<group>";
+		};
+		A12814FC1B4BAD8900EF6D71 /* Slider WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A12814FD1B4BAD8900EF6D71 /* InterfaceController.swift */,
+				A12814FF1B4BAD8900EF6D71 /* ExtensionDelegate.swift */,
+				A12815011B4BAD8900EF6D71 /* Assets.xcassets */,
+				A12815031B4BAD8900EF6D71 /* Info.plist */,
+			);
+			path = "Slider WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A13AA9A11B4C9E8A001FCC50 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A13AA9A21B4C9E8A001FCC50 /* appicon.png */,
+				A13AA9A31B4C9E8A001FCC50 /* appicon_120.png */,
+				A13AA9A41B4C9E8A001FCC50 /* appicon_172.png */,
+				A13AA9A51B4C9E8A001FCC50 /* appicon_180.png */,
+				A13AA9A61B4C9E8A001FCC50 /* appicon_196.png */,
+				A13AA9A71B4C9E8A001FCC50 /* appicon_48.png */,
+				A13AA9A81B4C9E8A001FCC50 /* appicon_55.png */,
+				A13AA9A91B4C9E8A001FCC50 /* appicon_58.png */,
+				A13AA9AA1B4C9E8A001FCC50 /* appicon_80.png */,
+				A13AA9AB1B4C9E8A001FCC50 /* appicon_87.png */,
+				A13AA9AC1B4C9E8A001FCC50 /* appicon_88.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A13CE37F1B5317F8005047A3 /* GestureKit */ = {
+			isa = PBXGroup;
+			children = (
+				A18C83FF1B548F8200F2A3FC /* GKGestureClassifier.swift */,
+				A13CE3801B5317F8005047A3 /* GKGesture.swift */,
+				A13CE3821B5317F8005047A3 /* GKSensorController.swift */,
+				A13CE3831B5317F8005047A3 /* GKSessionControllerH.swift */,
+				A13CE3841B5317F8005047A3 /* GKSessionControllerW.swift */,
+			);
+			name = GestureKit;
+			path = ../GestureKit;
+			sourceTree = "<group>";
+		};
+		A1DDDBC91B5F4BF8007B9B9D /* ExtensionKit */ = {
+			isa = PBXGroup;
+			children = (
+				A1DDDBCA1B5F4BF8007B9B9D /* EKSlidesCache.swift */,
+				A1DDDBCB1B5F4BF8007B9B9D /* EKSlidesImageViewController.swift */,
+				A1DDDBCC1B5F4BF8007B9B9D /* EKSlidesViewController.swift */,
+				A1DDDBCD1B5F4BF8007B9B9D /* EKSlidesViewControllerProtocol.swift */,
+				A1DDDBCE1B5F4BF8007B9B9D /* EKSlidesWebViewController.swift */,
+				A1DDDBCF1B5F4BF8007B9B9D /* GlobalVar.swift */,
+				A1DDDBD01B5F4BF8007B9B9D /* NativeClassExtensions.swift */,
+			);
+			path = ExtensionKit;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A12814D61B4BAD8800EF6D71 /* Slider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A128150E1B4BAD8900EF6D71 /* Build configuration list for PBXNativeTarget "Slider" */;
+			buildPhases = (
+				A12814D31B4BAD8800EF6D71 /* Sources */,
+				A12814D41B4BAD8800EF6D71 /* Frameworks */,
+				A12814D51B4BAD8800EF6D71 /* Resources */,
+				A128150D1B4BAD8900EF6D71 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A12814EC1B4BAD8900EF6D71 /* PBXTargetDependency */,
+			);
+			name = Slider;
+			productName = Slider;
+			productReference = A12814D71B4BAD8900EF6D71 /* Slider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A12814E81B4BAD8900EF6D71 /* Slider WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A128150A1B4BAD8900EF6D71 /* Build configuration list for PBXNativeTarget "Slider WatchKit App" */;
+			buildPhases = (
+				A12814E71B4BAD8900EF6D71 /* Resources */,
+				A12815091B4BAD8900EF6D71 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A12814FB1B4BAD8900EF6D71 /* PBXTargetDependency */,
+			);
+			name = "Slider WatchKit App";
+			productName = "Slider WatchKit App";
+			productReference = A12814E91B4BAD8900EF6D71 /* Slider WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A12814F71B4BAD8900EF6D71 /* Slider WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12815061B4BAD8900EF6D71 /* Build configuration list for PBXNativeTarget "Slider WatchKit Extension" */;
+			buildPhases = (
+				A12814F41B4BAD8900EF6D71 /* Sources */,
+				A12814F51B4BAD8900EF6D71 /* Frameworks */,
+				A12814F61B4BAD8900EF6D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slider WatchKit Extension";
+			productName = "Slider WatchKit Extension";
+			productReference = A12814F81B4BAD8900EF6D71 /* Slider WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A12814CF1B4BAD8800EF6D71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = SenseWatch;
+				TargetAttributes = {
+					A12814D61B4BAD8800EF6D71 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A12814E81B4BAD8900EF6D71 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A12814F71B4BAD8900EF6D71 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = A12814D21B4BAD8800EF6D71 /* Build configuration list for PBXProject "Slider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A12814CE1B4BAD8800EF6D71;
+			productRefGroup = A12814D81B4BAD8900EF6D71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A12814D61B4BAD8800EF6D71 /* Slider */,
+				A12814E81B4BAD8900EF6D71 /* Slider WatchKit App */,
+				A12814F71B4BAD8900EF6D71 /* Slider WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A12814D51B4BAD8800EF6D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13AA9AF1B4C9E8A001FCC50 /* appicon_120.png in Resources */,
+				A13AA9AD1B4C9E8A001FCC50 /* appicon.png in Resources */,
+				A13AA9BB1B4C9E8A001FCC50 /* appicon_58.png in Resources */,
+				A12814E51B4BAD8900EF6D71 /* LaunchScreen.storyboard in Resources */,
+				A13AA9BF1B4C9E8A001FCC50 /* appicon_87.png in Resources */,
+				A13AA9B51B4C9E8A001FCC50 /* appicon_196.png in Resources */,
+				A13AA9B91B4C9E8A001FCC50 /* appicon_55.png in Resources */,
+				A13AA9B71B4C9E8A001FCC50 /* appicon_48.png in Resources */,
+				A13AA9B11B4C9E8A001FCC50 /* appicon_172.png in Resources */,
+				A13AA9B31B4C9E8A001FCC50 /* appicon_180.png in Resources */,
+				A12814E21B4BAD8900EF6D71 /* Assets.xcassets in Resources */,
+				A13AA9BD1B4C9E8A001FCC50 /* appicon_80.png in Resources */,
+				A13AA9C11B4C9E8A001FCC50 /* appicon_88.png in Resources */,
+				A12814E01B4BAD8900EF6D71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12814E71B4BAD8900EF6D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13AA9B41B4C9E8A001FCC50 /* appicon_180.png in Resources */,
+				A12814F21B4BAD8900EF6D71 /* Assets.xcassets in Resources */,
+				A13AA9AE1B4C9E8A001FCC50 /* appicon.png in Resources */,
+				A13AA9B01B4C9E8A001FCC50 /* appicon_120.png in Resources */,
+				A13AA9B21B4C9E8A001FCC50 /* appicon_172.png in Resources */,
+				A12814F01B4BAD8900EF6D71 /* Interface.storyboard in Resources */,
+				A13AA9C21B4C9E8A001FCC50 /* appicon_88.png in Resources */,
+				A13AA9B81B4C9E8A001FCC50 /* appicon_48.png in Resources */,
+				A13AA9B61B4C9E8A001FCC50 /* appicon_196.png in Resources */,
+				A13AA9BE1B4C9E8A001FCC50 /* appicon_80.png in Resources */,
+				A13AA9C01B4C9E8A001FCC50 /* appicon_87.png in Resources */,
+				A13AA9BA1B4C9E8A001FCC50 /* appicon_55.png in Resources */,
+				A13AA9BC1B4C9E8A001FCC50 /* appicon_58.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12814F61B4BAD8900EF6D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12815021B4BAD8900EF6D71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A12814D31B4BAD8800EF6D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DDDBD21B5F4BF8007B9B9D /* EKSlidesImageViewController.swift in Sources */,
+				A1317C6D1B53676600A47145 /* SlidesViewController.swift in Sources */,
+				A1DDDBD31B5F4BF8007B9B9D /* EKSlidesViewController.swift in Sources */,
+				A1DDDBD71B5F4BF8007B9B9D /* NativeClassExtensions.swift in Sources */,
+				A1DDDBD51B5F4BF8007B9B9D /* EKSlidesWebViewController.swift in Sources */,
+				A1E291E11B53A2B100A75348 /* SlidesPreviewController.swift in Sources */,
+				A1DDDBD41B5F4BF8007B9B9D /* EKSlidesViewControllerProtocol.swift in Sources */,
+				A1DDDBD11B5F4BF8007B9B9D /* EKSlidesCache.swift in Sources */,
+				A18C84001B548F8200F2A3FC /* GKGestureClassifier.swift in Sources */,
+				A1FF53DC1B5D73C300F64E7E /* CacheIndexingViewController.swift in Sources */,
+				A12814DB1B4BAD8900EF6D71 /* AppDelegate.swift in Sources */,
+				A1DDDBD61B5F4BF8007B9B9D /* GlobalVar.swift in Sources */,
+				A13CE3891B5317F8005047A3 /* GKSensorController.swift in Sources */,
+				A13CE3851B5317F8005047A3 /* GKGesture.swift in Sources */,
+				A13CE38D1B5317F8005047A3 /* GKSessionControllerW.swift in Sources */,
+				A13CE38B1B5317F8005047A3 /* GKSessionControllerH.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12814F41B4BAD8900EF6D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12815001B4BAD8900EF6D71 /* ExtensionDelegate.swift in Sources */,
+				A13CE3861B5317F8005047A3 /* GKGesture.swift in Sources */,
+				A13CE38A1B5317F8005047A3 /* GKSensorController.swift in Sources */,
+				A18C84011B548F8200F2A3FC /* GKGestureClassifier.swift in Sources */,
+				A12814FE1B4BAD8900EF6D71 /* InterfaceController.swift in Sources */,
+				A13CE38E1B5317F8005047A3 /* GKSessionControllerW.swift in Sources */,
+				A13CE38C1B5317F8005047A3 /* GKSessionControllerH.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A12814EC1B4BAD8900EF6D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A12814E81B4BAD8900EF6D71 /* Slider WatchKit App */;
+			targetProxy = A12814EB1B4BAD8900EF6D71 /* PBXContainerItemProxy */;
+		};
+		A12814FB1B4BAD8900EF6D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A12814F71B4BAD8900EF6D71 /* Slider WatchKit Extension */;
+			targetProxy = A12814FA1B4BAD8900EF6D71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A12814DE1B4BAD8900EF6D71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12814DF1B4BAD8900EF6D71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A12814E31B4BAD8900EF6D71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12814E41B4BAD8900EF6D71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A12814EE1B4BAD8900EF6D71 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12814EF1B4BAD8900EF6D71 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A12815041B4BAD8900EF6D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A12815051B4BAD8900EF6D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A12815071B4BAD8900EF6D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Slider WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.Slider.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A12815081B4BAD8900EF6D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Slider WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.Slider.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A128150B1B4BAD8900EF6D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Slider_WatchKit_Extension;
+				INFOPLIST_FILE = "Slider WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.Slider.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A128150C1B4BAD8900EF6D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Slider_WatchKit_Extension;
+				INFOPLIST_FILE = "Slider WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.Slider.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A128150F1B4BAD8900EF6D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Slider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.Slider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A12815101B4BAD8900EF6D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Slider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.Slider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A12814D21B4BAD8800EF6D71 /* Build configuration list for PBXProject "Slider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12815041B4BAD8900EF6D71 /* Debug */,
+				A12815051B4BAD8900EF6D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12815061B4BAD8900EF6D71 /* Build configuration list for PBXNativeTarget "Slider WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12815071B4BAD8900EF6D71 /* Debug */,
+				A12815081B4BAD8900EF6D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A128150A1B4BAD8900EF6D71 /* Build configuration list for PBXNativeTarget "Slider WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A128150B1B4BAD8900EF6D71 /* Debug */,
+				A128150C1B4BAD8900EF6D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A128150E1B4BAD8900EF6D71 /* Build configuration list for PBXNativeTarget "Slider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A128150F1B4BAD8900EF6D71 /* Debug */,
+				A12815101B4BAD8900EF6D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A12814CF1B4BAD8800EF6D71 /* Project object */;
+}

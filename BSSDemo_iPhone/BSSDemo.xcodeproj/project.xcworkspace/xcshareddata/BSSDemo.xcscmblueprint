@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FD695DE1516D39A422C7A8AEEF08318DF188F222",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EA64DC792A19BBB0000900060719BE2559D3A91A" : 0,
+    "FD695DE1516D39A422C7A8AEEF08318DF188F222" : 0,
+    "D378051D93073DD8B6771577ACEBF73CCDBBBFA6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "855484EC-A0E6-4AE4-ABF3-CF32887E2434",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EA64DC792A19BBB0000900060719BE2559D3A91A" : "GestureKit\/",
+    "FD695DE1516D39A422C7A8AEEF08318DF188F222" : "BSSDemo\/",
+    "D378051D93073DD8B6771577ACEBF73CCDBBBFA6" : "Slider\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BSSDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BSSDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/pugcoder\/slider.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D378051D93073DD8B6771577ACEBF73CCDBBBFA6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/pugcoder\/gesturekit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EA64DC792A19BBB0000900060719BE2559D3A91A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/pugcoder\/bssdemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD695DE1516D39A422C7A8AEEF08318DF188F222"
+    }
+  ]
+}

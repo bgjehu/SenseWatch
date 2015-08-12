@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D378051D93073DD8B6771577ACEBF73CCDBBBFA6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EA64DC792A19BBB0000900060719BE2559D3A91A" : 0,
+    "D378051D93073DD8B6771577ACEBF73CCDBBBFA6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FD67FCDB-A873-4413-BE08-8CDC918E26F9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EA64DC792A19BBB0000900060719BE2559D3A91A" : "GestureKit\/",
+    "D378051D93073DD8B6771577ACEBF73CCDBBBFA6" : "Slider\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Slider",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Slider.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CodingPug\/Slider.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D378051D93073DD8B6771577ACEBF73CCDBBBFA6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CodingPug\/GestureKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EA64DC792A19BBB0000900060719BE2559D3A91A"
+    }
+  ]
+}

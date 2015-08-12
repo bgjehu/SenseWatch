@@ -1,0 +1,898 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10433B51B77EE8400BE532C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10433B41B77EE8400BE532C /* SignUpViewController.swift */; };
+		A104C8891B6D8A4B00F43DED /* LightBulbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C8881B6D8A4B00F43DED /* LightBulbViewController.swift */; };
+		A104C88B1B6D9B9D00F43DED /* LightBulb.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A104C88A1B6D9B9D00F43DED /* LightBulb.storyboard */; };
+		A10E4A941B799C6B008908AB /* Whip.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10E4A931B799C6B008908AB /* Whip.storyboard */; };
+		A10E4A9B1B799CDB008908AB /* WhipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10E4A9A1B799CDB008908AB /* WhipViewController.swift */; };
+		A10E4A9D1B799D97008908AB /* Whip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A10E4A9C1B799D97008908AB /* Whip.mp3 */; };
+		A11199D11B66BE7A000449F7 /* hueBulb.png in Resources */ = {isa = PBXBuildFile; fileRef = A11199CF1B66BE7A000449F7 /* hueBulb.png */; };
+		A11199D21B66BE7A000449F7 /* selectBox.png in Resources */ = {isa = PBXBuildFile; fileRef = A11199D01B66BE7A000449F7 /* selectBox.png */; };
+		A12DEE3E1B75B67F00C77306 /* GKGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B813BA1B74337400E105FA /* GKGesture.swift */; };
+		A14A9A871B726330002D4782 /* TrainnerRootInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14A9A861B726330002D4782 /* TrainnerRootInterfaceController.swift */; };
+		A14A9A891B7264CE002D4782 /* TrainnerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14A9A881B7264CE002D4782 /* TrainnerInterfaceController.swift */; };
+		A14CD9131B658E4E0065A6AA /* DataSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = A14CD90D1B658E4E0065A6AA /* DataSource.plist */; };
+		A14CD9141B658E4E0065A6AA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CD90E1B658E4E0065A6AA /* MainViewController.swift */; };
+		A14CD9151B658E4E0065A6AA /* SlidesCachingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CD9101B658E4E0065A6AA /* SlidesCachingViewController.swift */; };
+		A14CD9161B658E4E0065A6AA /* SlidesPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CD9111B658E4E0065A6AA /* SlidesPreviewController.swift */; };
+		A1518F4A1B6824500001367F /* MuseRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1518F491B6824500001367F /* MuseRootViewController.swift */; };
+		A179F64D1B7971A100247E29 /* vinyl.png in Resources */ = {isa = PBXBuildFile; fileRef = A179F64C1B7971A100247E29 /* vinyl.png */; };
+		A18078681B681F45004C5F06 /* SliderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18078671B681F45004C5F06 /* SliderExtension.swift */; };
+		A180786C1B68229C004C5F06 /* SlidesWebAndImageViewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A180786B1B68229C004C5F06 /* SlidesWebAndImageViewsController.swift */; };
+		A180786E1B6822D7004C5F06 /* SlidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A180786D1B6822D7004C5F06 /* SlidesViewController.swift */; };
+		A1A076651B6624230057296B /* HueSDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A076541B6624230057296B /* HueSDK_iOS.framework */; };
+		A1A076661B6624230057296B /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A076571B6624230057296B /* DDAbstractDatabaseLogger.m */; };
+		A1A076671B6624230057296B /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A076591B6624230057296B /* DDASLLogger.m */; };
+		A1A076681B6624230057296B /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A0765B1B6624230057296B /* DDFileLogger.m */; };
+		A1A076691B6624230057296B /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A0765D1B6624230057296B /* DDLog.m */; };
+		A1A0766A1B6624230057296B /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A0765F1B6624230057296B /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A1A0766B1B6624230057296B /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A076621B6624230057296B /* ContextFilterLogFormatter.m */; };
+		A1A0766C1B6624230057296B /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A076641B6624230057296B /* DispatchQueueLogFormatter.m */; };
+		A1A2FD0C1B62D7EC00CA3B85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2FD0B1B62D7EC00CA3B85 /* AppDelegate.swift */; };
+		A1A2FD131B62D7EC00CA3B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A2FD121B62D7EC00CA3B85 /* Assets.xcassets */; };
+		A1A2FD161B62D7EC00CA3B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A2FD141B62D7EC00CA3B85 /* LaunchScreen.storyboard */; };
+		A1A2FD1B1B62D7ED00CA3B85 /* BSSDemo WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A1A2FD1A1B62D7ED00CA3B85 /* BSSDemo WatchKit App.app */; };
+		A1A2FD211B62D7ED00CA3B85 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A2FD1F1B62D7ED00CA3B85 /* Interface.storyboard */; };
+		A1A2FD231B62D7ED00CA3B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A2FD221B62D7ED00CA3B85 /* Assets.xcassets */; };
+		A1A2FD2A1B62D7ED00CA3B85 /* BSSDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A1A2FD291B62D7ED00CA3B85 /* BSSDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A1A2FD2F1B62D7ED00CA3B85 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2FD2E1B62D7ED00CA3B85 /* InterfaceController.swift */; };
+		A1A2FD311B62D7ED00CA3B85 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A2FD301B62D7ED00CA3B85 /* ExtensionDelegate.swift */; };
+		A1A2FD331B62D7ED00CA3B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A2FD321B62D7ED00CA3B85 /* Assets.xcassets */; };
+		A1A3F1AC1B67E3AD00A14F6B /* Muse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A3F1AB1B67E3AD00A14F6B /* Muse.storyboard */; };
+		A1A3F1B31B67E9B500A14F6B /* SlidesCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A3F1AD1B67E9B500A14F6B /* SlidesCache.swift */; };
+		A1A3F1B41B67E9B500A14F6B /* SlidesImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A3F1AE1B67E9B500A14F6B /* SlidesImageViewController.swift */; };
+		A1A3F1B61B67E9B500A14F6B /* SlidesViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A3F1B01B67E9B500A14F6B /* SlidesViewControllerProtocol.swift */; };
+		A1A3F1B71B67E9B500A14F6B /* SlidesWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A3F1B11B67E9B500A14F6B /* SlidesWebViewController.swift */; };
+		A1A3F1C11B68054C00A14F6B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A3F1BF1B68054C00A14F6B /* Extensions.swift */; };
+		A1A3F1C21B68054C00A14F6B /* GlobalVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A3F1C01B68054C00A14F6B /* GlobalVar.swift */; };
+		A1A3F1C41B6806CF00A14F6B /* SliderPathObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A3F1C31B6806CF00A14F6B /* SliderPathObjects.swift */; };
+		A1A3F1C81B68168900A14F6B /* SliderGlobalVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A3F1C71B68168900A14F6B /* SliderGlobalVar.swift */; };
+		A1B813B31B741F7500E105FA /* GKUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B813B21B741F7500E105FA /* GKUtilities.swift */; };
+		A1B813B51B74223000E105FA /* GKGesturePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B813B41B74223000E105FA /* GKGesturePattern.swift */; };
+		A1B813B71B74295000E105FA /* GKGestureDataStoringQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B813B61B74295000E105FA /* GKGestureDataStoringQueue.swift */; };
+		A1B813B91B7430E600E105FA /* GKGestureDataRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B813B81B7430E600E105FA /* GKGestureDataRecorder.swift */; };
+		A1B813BB1B74337400E105FA /* GKGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B813BA1B74337400E105FA /* GKGesture.swift */; };
+		A1B813BD1B74380B00E105FA /* GKGestureClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B813BC1B74380B00E105FA /* GKGestureClassifier.swift */; };
+		A1B813C11B75076200E105FA /* GKBandSensorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B813C01B75076200E105FA /* GKBandSensorManager.swift */; };
+		A1B813C31B752F9A00E105FA /* BackDoorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B813C21B752F9900E105FA /* BackDoorViewController.swift */; };
+		A1CA14C91B6599F900DA4382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CA14C81B6599F900DA4382 /* Main.storyboard */; };
+		A1CA14CB1B659A1600DA4382 /* Slider.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CA14CA1B659A1600DA4382 /* Slider.storyboard */; };
+		A1E8D9111B6E856100799658 /* LightBulbST.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E8D90F1B6E856100799658 /* LightBulbST.storyboard */; };
+		A1E8D9121B6E856100799658 /* LightBulbSTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E8D9101B6E856100799658 /* LightBulbSTViewController.swift */; };
+		A1E8D9141B6E865C00799658 /* MicrosoftBandKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E8D9131B6E865C00799658 /* MicrosoftBandKit_iOS.framework */; };
+		A1E90B091B76D9B500646960 /* HKWatchSensorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E90B071B76D9AE00646960 /* HKWatchSensorManager.swift */; };
+		A1E90B0D1B76DF1A00646960 /* HKAccelerometerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E90B0A1B76DF1A00646960 /* HKAccelerometerData.swift */; };
+		A1E90B0E1B76DF1A00646960 /* HKHandheldSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E90B0B1B76DF1A00646960 /* HKHandheldSession.swift */; };
+		A1E90B101B76DF7A00646960 /* HKWatchSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E90B0C1B76DF1A00646960 /* HKWatchSession.swift */; };
+		A1E90B131B76E21A00646960 /* HKWatchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E90B111B76E02600646960 /* HKWatchController.swift */; };
+		A1E90B151B76E25800646960 /* HKHandheldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E90B141B76E25800646960 /* HKHandheldController.swift */; };
+		A1E90B171B76E51E00646960 /* HKWatchSensorManagerCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E90B161B76E51E00646960 /* HKWatchSensorManagerCP.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1A2FD1C1B62D7ED00CA3B85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1A2FD001B62D7EC00CA3B85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1A2FD191B62D7ED00CA3B85;
+			remoteInfo = "BSSDemo WatchKit App";
+		};
+		A1A2FD2B1B62D7ED00CA3B85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1A2FD001B62D7EC00CA3B85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1A2FD281B62D7ED00CA3B85;
+			remoteInfo = "BSSDemo WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1A2FD3A1B62D7ED00CA3B85 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A1A2FD2A1B62D7ED00CA3B85 /* BSSDemo WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A2FD3E1B62D7ED00CA3B85 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A1A2FD1B1B62D7ED00CA3B85 /* BSSDemo WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A10433B41B77EE8400BE532C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A104C8881B6D8A4B00F43DED /* LightBulbViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LightBulbViewController.swift; path = LightBulb/LightBulbViewController.swift; sourceTree = "<group>"; };
+		A104C88A1B6D9B9D00F43DED /* LightBulb.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LightBulb.storyboard; path = LightBulb/LightBulb.storyboard; sourceTree = "<group>"; };
+		A10E4A931B799C6B008908AB /* Whip.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Whip.storyboard; sourceTree = "<group>"; };
+		A10E4A9A1B799CDB008908AB /* WhipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhipViewController.swift; sourceTree = "<group>"; };
+		A10E4A9C1B799D97008908AB /* Whip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Whip.mp3; sourceTree = "<group>"; };
+		A11199CF1B66BE7A000449F7 /* hueBulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hueBulb.png; path = Resources/hueBulb.png; sourceTree = SOURCE_ROOT; };
+		A11199D01B66BE7A000449F7 /* selectBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = selectBox.png; path = Resources/selectBox.png; sourceTree = SOURCE_ROOT; };
+		A14A9A861B726330002D4782 /* TrainnerRootInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainnerRootInterfaceController.swift; sourceTree = "<group>"; };
+		A14A9A881B7264CE002D4782 /* TrainnerInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainnerInterfaceController.swift; sourceTree = "<group>"; };
+		A14CD90D1B658E4E0065A6AA /* DataSource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataSource.plist; sourceTree = "<group>"; };
+		A14CD90E1B658E4E0065A6AA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A14CD9101B658E4E0065A6AA /* SlidesCachingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesCachingViewController.swift; sourceTree = "<group>"; };
+		A14CD9111B658E4E0065A6AA /* SlidesPreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesPreviewController.swift; sourceTree = "<group>"; };
+		A1518F491B6824500001367F /* MuseRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MuseRootViewController.swift; path = Muse/MuseRootViewController.swift; sourceTree = "<group>"; };
+		A179F64C1B7971A100247E29 /* vinyl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vinyl.png; path = Resources/vinyl.png; sourceTree = "<group>"; };
+		A18078671B681F45004C5F06 /* SliderExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderExtension.swift; sourceTree = "<group>"; };
+		A180786B1B68229C004C5F06 /* SlidesWebAndImageViewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesWebAndImageViewsController.swift; sourceTree = "<group>"; };
+		A180786D1B6822D7004C5F06 /* SlidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesViewController.swift; sourceTree = "<group>"; };
+		A1A075F31B661E960057296B /* BSSDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BSSDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		A1A076541B6624230057296B /* HueSDK_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HueSDK_iOS.framework; sourceTree = "<group>"; };
+		A1A076561B6624230057296B /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		A1A076571B6624230057296B /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		A1A076581B6624230057296B /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		A1A076591B6624230057296B /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		A1A0765A1B6624230057296B /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		A1A0765B1B6624230057296B /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		A1A0765C1B6624230057296B /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		A1A0765D1B6624230057296B /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		A1A0765E1B6624230057296B /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		A1A0765F1B6624230057296B /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		A1A076611B6624230057296B /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		A1A076621B6624230057296B /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		A1A076631B6624230057296B /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		A1A076641B6624230057296B /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		A1A2FD081B62D7EC00CA3B85 /* BSSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A2FD0B1B62D7EC00CA3B85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1A2FD121B62D7EC00CA3B85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1A2FD151B62D7EC00CA3B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1A2FD171B62D7EC00CA3B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A2FD1A1B62D7ED00CA3B85 /* BSSDemo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BSSDemo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A2FD201B62D7ED00CA3B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A1A2FD221B62D7ED00CA3B85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1A2FD241B62D7ED00CA3B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A2FD291B62D7ED00CA3B85 /* BSSDemo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BSSDemo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A2FD2E1B62D7ED00CA3B85 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A1A2FD301B62D7ED00CA3B85 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A1A2FD321B62D7ED00CA3B85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1A2FD341B62D7ED00CA3B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A3F1AB1B67E3AD00A14F6B /* Muse.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Muse.storyboard; path = Muse/Muse.storyboard; sourceTree = "<group>"; };
+		A1A3F1AD1B67E9B500A14F6B /* SlidesCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesCache.swift; sourceTree = "<group>"; };
+		A1A3F1AE1B67E9B500A14F6B /* SlidesImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesImageViewController.swift; sourceTree = "<group>"; };
+		A1A3F1B01B67E9B500A14F6B /* SlidesViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesViewControllerProtocol.swift; sourceTree = "<group>"; };
+		A1A3F1B11B67E9B500A14F6B /* SlidesWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesWebViewController.swift; sourceTree = "<group>"; };
+		A1A3F1BF1B68054C00A14F6B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = BSSDemo/Extensions.swift; sourceTree = "<group>"; };
+		A1A3F1C01B68054C00A14F6B /* GlobalVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalVar.swift; path = BSSDemo/GlobalVar.swift; sourceTree = "<group>"; };
+		A1A3F1C31B6806CF00A14F6B /* SliderPathObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderPathObjects.swift; sourceTree = "<group>"; };
+		A1A3F1C71B68168900A14F6B /* SliderGlobalVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderGlobalVar.swift; sourceTree = "<group>"; };
+		A1B813B21B741F7500E105FA /* GKUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKUtilities.swift; path = Frameworks/GestureKit/GKUtilities.swift; sourceTree = "<group>"; };
+		A1B813B41B74223000E105FA /* GKGesturePattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKGesturePattern.swift; path = Frameworks/GestureKit/GKGesturePattern.swift; sourceTree = "<group>"; };
+		A1B813B61B74295000E105FA /* GKGestureDataStoringQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKGestureDataStoringQueue.swift; path = Frameworks/GestureKit/GKGestureDataStoringQueue.swift; sourceTree = "<group>"; };
+		A1B813B81B7430E600E105FA /* GKGestureDataRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKGestureDataRecorder.swift; path = Frameworks/GestureKit/GKGestureDataRecorder.swift; sourceTree = "<group>"; };
+		A1B813BA1B74337400E105FA /* GKGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKGesture.swift; path = Frameworks/GestureKit/GKGesture.swift; sourceTree = "<group>"; };
+		A1B813BC1B74380B00E105FA /* GKGestureClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKGestureClassifier.swift; path = Frameworks/GestureKit/GKGestureClassifier.swift; sourceTree = "<group>"; };
+		A1B813C01B75076200E105FA /* GKBandSensorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKBandSensorManager.swift; path = Frameworks/GestureKit/GKBandSensorManager.swift; sourceTree = "<group>"; };
+		A1B813C21B752F9900E105FA /* BackDoorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackDoorViewController.swift; sourceTree = "<group>"; };
+		A1CA14C81B6599F900DA4382 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A1CA14CA1B659A1600DA4382 /* Slider.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Slider.storyboard; sourceTree = "<group>"; };
+		A1E8D90F1B6E856100799658 /* LightBulbST.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LightBulbST.storyboard; sourceTree = "<group>"; };
+		A1E8D9101B6E856100799658 /* LightBulbSTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightBulbSTViewController.swift; sourceTree = "<group>"; };
+		A1E8D9131B6E865C00799658 /* MicrosoftBandKit_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftBandKit_iOS.framework; sourceTree = "<group>"; };
+		A1E90B071B76D9AE00646960 /* HKWatchSensorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HKWatchSensorManager.swift; path = GestureKit/HKWatchSensorManager.swift; sourceTree = "<group>"; };
+		A1E90B0A1B76DF1A00646960 /* HKAccelerometerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HKAccelerometerData.swift; path = HardwareKit/HKAccelerometerData.swift; sourceTree = "<group>"; };
+		A1E90B0B1B76DF1A00646960 /* HKHandheldSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HKHandheldSession.swift; path = HardwareKit/HKHandheldSession.swift; sourceTree = "<group>"; };
+		A1E90B0C1B76DF1A00646960 /* HKWatchSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HKWatchSession.swift; path = HardwareKit/HKWatchSession.swift; sourceTree = "<group>"; };
+		A1E90B111B76E02600646960 /* HKWatchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HKWatchController.swift; path = HardwareKit/HKWatchController.swift; sourceTree = "<group>"; };
+		A1E90B141B76E25800646960 /* HKHandheldController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HKHandheldController.swift; path = HardwareKit/HKHandheldController.swift; sourceTree = "<group>"; };
+		A1E90B161B76E51E00646960 /* HKWatchSensorManagerCP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HKWatchSensorManagerCP.swift; path = HardwareKit/HKWatchSensorManagerCP.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1A2FD051B62D7EC00CA3B85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A076651B6624230057296B /* HueSDK_iOS.framework in Frameworks */,
+				A1E8D9141B6E865C00799658 /* MicrosoftBandKit_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A2FD261B62D7ED00CA3B85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10E4A921B799C5B008908AB /* Whip */ = {
+			isa = PBXGroup;
+			children = (
+				A10E4A9C1B799D97008908AB /* Whip.mp3 */,
+				A10E4A931B799C6B008908AB /* Whip.storyboard */,
+				A10E4A9A1B799CDB008908AB /* WhipViewController.swift */,
+			);
+			name = Whip;
+			sourceTree = "<group>";
+		};
+		A12C9E5C1B62DE7400FE92A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A11199CF1B66BE7A000449F7 /* hueBulb.png */,
+				A11199D01B66BE7A000449F7 /* selectBox.png */,
+				A179F64C1B7971A100247E29 /* vinyl.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A12DEE371B75AC8B00C77306 /* HardwareKit */ = {
+			isa = PBXGroup;
+			children = (
+				A1E90B0A1B76DF1A00646960 /* HKAccelerometerData.swift */,
+				A1E90B0C1B76DF1A00646960 /* HKWatchSession.swift */,
+				A1E90B071B76D9AE00646960 /* HKWatchSensorManager.swift */,
+				A1E90B111B76E02600646960 /* HKWatchController.swift */,
+				A1E90B0B1B76DF1A00646960 /* HKHandheldSession.swift */,
+				A1E90B161B76E51E00646960 /* HKWatchSensorManagerCP.swift */,
+				A1E90B141B76E25800646960 /* HKHandheldController.swift */,
+			);
+			name = HardwareKit;
+			sourceTree = "<group>";
+		};
+		A14CD90C1B658E4E0065A6AA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA14C81B6599F900DA4382 /* Main.storyboard */,
+				A14CD90D1B658E4E0065A6AA /* DataSource.plist */,
+				A14CD90E1B658E4E0065A6AA /* MainViewController.swift */,
+				A1B813C21B752F9900E105FA /* BackDoorViewController.swift */,
+				A10433B41B77EE8400BE532C /* SignUpViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A14CD90F1B658E4E0065A6AA /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA14CA1B659A1600DA4382 /* Slider.storyboard */,
+				A14CD9101B658E4E0065A6AA /* SlidesCachingViewController.swift */,
+				A14CD9111B658E4E0065A6AA /* SlidesPreviewController.swift */,
+				A180786D1B6822D7004C5F06 /* SlidesViewController.swift */,
+				A1A3F1AD1B67E9B500A14F6B /* SlidesCache.swift */,
+				A1A3F1B01B67E9B500A14F6B /* SlidesViewControllerProtocol.swift */,
+				A1A3F1AE1B67E9B500A14F6B /* SlidesImageViewController.swift */,
+				A1A3F1B11B67E9B500A14F6B /* SlidesWebViewController.swift */,
+				A180786B1B68229C004C5F06 /* SlidesWebAndImageViewsController.swift */,
+				A1A3F1C31B6806CF00A14F6B /* SliderPathObjects.swift */,
+				A18078671B681F45004C5F06 /* SliderExtension.swift */,
+				A1A3F1C71B68168900A14F6B /* SliderGlobalVar.swift */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		A1A076551B6624230057296B /* Lumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				A1A076561B6624230057296B /* DDAbstractDatabaseLogger.h */,
+				A1A076571B6624230057296B /* DDAbstractDatabaseLogger.m */,
+				A1A076581B6624230057296B /* DDASLLogger.h */,
+				A1A076591B6624230057296B /* DDASLLogger.m */,
+				A1A0765A1B6624230057296B /* DDFileLogger.h */,
+				A1A0765B1B6624230057296B /* DDFileLogger.m */,
+				A1A0765C1B6624230057296B /* DDLog.h */,
+				A1A0765D1B6624230057296B /* DDLog.m */,
+				A1A0765E1B6624230057296B /* DDTTYLogger.h */,
+				A1A0765F1B6624230057296B /* DDTTYLogger.m */,
+				A1A076601B6624230057296B /* Extensions */,
+			);
+			path = Lumberjack;
+			sourceTree = "<group>";
+		};
+		A1A076601B6624230057296B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A1A076611B6624230057296B /* ContextFilterLogFormatter.h */,
+				A1A076621B6624230057296B /* ContextFilterLogFormatter.m */,
+				A1A076631B6624230057296B /* DispatchQueueLogFormatter.h */,
+				A1A076641B6624230057296B /* DispatchQueueLogFormatter.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A1A0766D1B6624860057296B /* LightBulb */ = {
+			isa = PBXGroup;
+			children = (
+				A104C88A1B6D9B9D00F43DED /* LightBulb.storyboard */,
+				A104C8881B6D8A4B00F43DED /* LightBulbViewController.swift */,
+			);
+			name = LightBulb;
+			sourceTree = "<group>";
+		};
+		A1A2FCFF1B62D7EC00CA3B85 = {
+			isa = PBXGroup;
+			children = (
+				A1A3F1BF1B68054C00A14F6B /* Extensions.swift */,
+				A1A3F1C01B68054C00A14F6B /* GlobalVar.swift */,
+				A1DE8C751B661B5F00B308B7 /* Frameworks */,
+				A12C9E5C1B62DE7400FE92A1 /* Resources */,
+				A1A2FD0A1B62D7EC00CA3B85 /* BSSDemo */,
+				A1A2FD1E1B62D7ED00CA3B85 /* BSSDemo WatchKit App */,
+				A1A2FD2D1B62D7ED00CA3B85 /* BSSDemo WatchKit Extension */,
+				A1A2FD091B62D7EC00CA3B85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1A2FD091B62D7EC00CA3B85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1A2FD081B62D7EC00CA3B85 /* BSSDemo.app */,
+				A1A2FD1A1B62D7ED00CA3B85 /* BSSDemo WatchKit App.app */,
+				A1A2FD291B62D7ED00CA3B85 /* BSSDemo WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1A2FD0A1B62D7EC00CA3B85 /* BSSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A10E4A921B799C5B008908AB /* Whip */,
+				A14CD90C1B658E4E0065A6AA /* Main */,
+				A1A3F1A81B67E34B00A14F6B /* Muse */,
+				A1A0766D1B6624860057296B /* LightBulb */,
+				A1E8D90E1B6E856100799658 /* LightBulbST */,
+				A14CD90F1B658E4E0065A6AA /* Slider */,
+				A1A2FD0B1B62D7EC00CA3B85 /* AppDelegate.swift */,
+				A1A2FD121B62D7EC00CA3B85 /* Assets.xcassets */,
+				A1A2FD141B62D7EC00CA3B85 /* LaunchScreen.storyboard */,
+				A1A2FD171B62D7EC00CA3B85 /* Info.plist */,
+			);
+			path = BSSDemo;
+			sourceTree = "<group>";
+		};
+		A1A2FD1E1B62D7ED00CA3B85 /* BSSDemo WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A1A2FD1F1B62D7ED00CA3B85 /* Interface.storyboard */,
+				A1A2FD221B62D7ED00CA3B85 /* Assets.xcassets */,
+				A1A2FD241B62D7ED00CA3B85 /* Info.plist */,
+			);
+			path = "BSSDemo WatchKit App";
+			sourceTree = "<group>";
+		};
+		A1A2FD2D1B62D7ED00CA3B85 /* BSSDemo WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A1A2FD2E1B62D7ED00CA3B85 /* InterfaceController.swift */,
+				A1A2FD301B62D7ED00CA3B85 /* ExtensionDelegate.swift */,
+				A1A2FD321B62D7ED00CA3B85 /* Assets.xcassets */,
+				A1A2FD341B62D7ED00CA3B85 /* Info.plist */,
+				A14A9A861B726330002D4782 /* TrainnerRootInterfaceController.swift */,
+				A14A9A881B7264CE002D4782 /* TrainnerInterfaceController.swift */,
+			);
+			path = "BSSDemo WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A1A3F1A81B67E34B00A14F6B /* Muse */ = {
+			isa = PBXGroup;
+			children = (
+				A1A3F1AB1B67E3AD00A14F6B /* Muse.storyboard */,
+				A1518F491B6824500001367F /* MuseRootViewController.swift */,
+			);
+			name = Muse;
+			sourceTree = "<group>";
+		};
+		A1B813B11B741F4E00E105FA /* GestureKit */ = {
+			isa = PBXGroup;
+			children = (
+				A1B813B21B741F7500E105FA /* GKUtilities.swift */,
+				A1B813B41B74223000E105FA /* GKGesturePattern.swift */,
+				A1B813B61B74295000E105FA /* GKGestureDataStoringQueue.swift */,
+				A1B813B81B7430E600E105FA /* GKGestureDataRecorder.swift */,
+				A1B813BA1B74337400E105FA /* GKGesture.swift */,
+				A1B813BC1B74380B00E105FA /* GKGestureClassifier.swift */,
+				A1B813C01B75076200E105FA /* GKBandSensorManager.swift */,
+			);
+			name = GestureKit;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A1DE8C751B661B5F00B308B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A12DEE371B75AC8B00C77306 /* HardwareKit */,
+				A1B813B11B741F4E00E105FA /* GestureKit */,
+				A1E8D9131B6E865C00799658 /* MicrosoftBandKit_iOS.framework */,
+				A1A076541B6624230057296B /* HueSDK_iOS.framework */,
+				A1A076551B6624230057296B /* Lumberjack */,
+				A1A075F31B661E960057296B /* BSSDemo-Bridging-Header.h */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1E8D90E1B6E856100799658 /* LightBulbST */ = {
+			isa = PBXGroup;
+			children = (
+				A1E8D90F1B6E856100799658 /* LightBulbST.storyboard */,
+				A1E8D9101B6E856100799658 /* LightBulbSTViewController.swift */,
+			);
+			path = LightBulbST;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1A2FD071B62D7EC00CA3B85 /* BSSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A2FD3F1B62D7ED00CA3B85 /* Build configuration list for PBXNativeTarget "BSSDemo" */;
+			buildPhases = (
+				A1A2FD041B62D7EC00CA3B85 /* Sources */,
+				A1A2FD051B62D7EC00CA3B85 /* Frameworks */,
+				A1A2FD061B62D7EC00CA3B85 /* Resources */,
+				A1A2FD3E1B62D7ED00CA3B85 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1A2FD1D1B62D7ED00CA3B85 /* PBXTargetDependency */,
+			);
+			name = BSSDemo;
+			productName = BSSDemo;
+			productReference = A1A2FD081B62D7EC00CA3B85 /* BSSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1A2FD191B62D7ED00CA3B85 /* BSSDemo WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A2FD3B1B62D7ED00CA3B85 /* Build configuration list for PBXNativeTarget "BSSDemo WatchKit App" */;
+			buildPhases = (
+				A1A2FD181B62D7ED00CA3B85 /* Resources */,
+				A1A2FD3A1B62D7ED00CA3B85 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1A2FD2C1B62D7ED00CA3B85 /* PBXTargetDependency */,
+			);
+			name = "BSSDemo WatchKit App";
+			productName = "BSSDemo WatchKit App";
+			productReference = A1A2FD1A1B62D7ED00CA3B85 /* BSSDemo WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A1A2FD281B62D7ED00CA3B85 /* BSSDemo WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A2FD371B62D7ED00CA3B85 /* Build configuration list for PBXNativeTarget "BSSDemo WatchKit Extension" */;
+			buildPhases = (
+				A1A2FD251B62D7ED00CA3B85 /* Sources */,
+				A1A2FD261B62D7ED00CA3B85 /* Frameworks */,
+				A1A2FD271B62D7ED00CA3B85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BSSDemo WatchKit Extension";
+			productName = "BSSDemo WatchKit Extension";
+			productReference = A1A2FD291B62D7ED00CA3B85 /* BSSDemo WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1A2FD001B62D7EC00CA3B85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = SenseWatch;
+				TargetAttributes = {
+					A1A2FD071B62D7EC00CA3B85 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A1A2FD191B62D7ED00CA3B85 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A1A2FD281B62D7ED00CA3B85 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = J6AJQ8THRK;
+					};
+				};
+			};
+			buildConfigurationList = A1A2FD031B62D7EC00CA3B85 /* Build configuration list for PBXProject "BSSDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1A2FCFF1B62D7EC00CA3B85;
+			productRefGroup = A1A2FD091B62D7EC00CA3B85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1A2FD071B62D7EC00CA3B85 /* BSSDemo */,
+				A1A2FD191B62D7ED00CA3B85 /* BSSDemo WatchKit App */,
+				A1A2FD281B62D7ED00CA3B85 /* BSSDemo WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1A2FD061B62D7EC00CA3B85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A104C88B1B6D9B9D00F43DED /* LightBulb.storyboard in Resources */,
+				A11199D21B66BE7A000449F7 /* selectBox.png in Resources */,
+				A10E4A941B799C6B008908AB /* Whip.storyboard in Resources */,
+				A179F64D1B7971A100247E29 /* vinyl.png in Resources */,
+				A1A3F1AC1B67E3AD00A14F6B /* Muse.storyboard in Resources */,
+				A1E8D9111B6E856100799658 /* LightBulbST.storyboard in Resources */,
+				A11199D11B66BE7A000449F7 /* hueBulb.png in Resources */,
+				A1A2FD161B62D7EC00CA3B85 /* LaunchScreen.storyboard in Resources */,
+				A1CA14C91B6599F900DA4382 /* Main.storyboard in Resources */,
+				A1A2FD131B62D7EC00CA3B85 /* Assets.xcassets in Resources */,
+				A10E4A9D1B799D97008908AB /* Whip.mp3 in Resources */,
+				A14CD9131B658E4E0065A6AA /* DataSource.plist in Resources */,
+				A1CA14CB1B659A1600DA4382 /* Slider.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A2FD181B62D7ED00CA3B85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A2FD231B62D7ED00CA3B85 /* Assets.xcassets in Resources */,
+				A1A2FD211B62D7ED00CA3B85 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A2FD271B62D7ED00CA3B85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A2FD331B62D7ED00CA3B85 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1A2FD041B62D7EC00CA3B85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B813B91B7430E600E105FA /* GKGestureDataRecorder.swift in Sources */,
+				A10E4A9B1B799CDB008908AB /* WhipViewController.swift in Sources */,
+				A1A3F1C81B68168900A14F6B /* SliderGlobalVar.swift in Sources */,
+				A1A076691B6624230057296B /* DDLog.m in Sources */,
+				A1E90B0D1B76DF1A00646960 /* HKAccelerometerData.swift in Sources */,
+				A1A3F1B31B67E9B500A14F6B /* SlidesCache.swift in Sources */,
+				A1A0766C1B6624230057296B /* DispatchQueueLogFormatter.m in Sources */,
+				A14CD9161B658E4E0065A6AA /* SlidesPreviewController.swift in Sources */,
+				A1B813B31B741F7500E105FA /* GKUtilities.swift in Sources */,
+				A1E90B151B76E25800646960 /* HKHandheldController.swift in Sources */,
+				A1A3F1C41B6806CF00A14F6B /* SliderPathObjects.swift in Sources */,
+				A1E90B171B76E51E00646960 /* HKWatchSensorManagerCP.swift in Sources */,
+				A1518F4A1B6824500001367F /* MuseRootViewController.swift in Sources */,
+				A1A2FD0C1B62D7EC00CA3B85 /* AppDelegate.swift in Sources */,
+				A1B813C31B752F9A00E105FA /* BackDoorViewController.swift in Sources */,
+				A1A3F1B41B67E9B500A14F6B /* SlidesImageViewController.swift in Sources */,
+				A1A076671B6624230057296B /* DDASLLogger.m in Sources */,
+				A18078681B681F45004C5F06 /* SliderExtension.swift in Sources */,
+				A1E90B0E1B76DF1A00646960 /* HKHandheldSession.swift in Sources */,
+				A1B813BD1B74380B00E105FA /* GKGestureClassifier.swift in Sources */,
+				A104C8891B6D8A4B00F43DED /* LightBulbViewController.swift in Sources */,
+				A1A0766B1B6624230057296B /* ContextFilterLogFormatter.m in Sources */,
+				A1A3F1C21B68054C00A14F6B /* GlobalVar.swift in Sources */,
+				A14CD9151B658E4E0065A6AA /* SlidesCachingViewController.swift in Sources */,
+				A1A076681B6624230057296B /* DDFileLogger.m in Sources */,
+				A14CD9141B658E4E0065A6AA /* MainViewController.swift in Sources */,
+				A1A3F1B61B67E9B500A14F6B /* SlidesViewControllerProtocol.swift in Sources */,
+				A10433B51B77EE8400BE532C /* SignUpViewController.swift in Sources */,
+				A1A3F1B71B67E9B500A14F6B /* SlidesWebViewController.swift in Sources */,
+				A1E8D9121B6E856100799658 /* LightBulbSTViewController.swift in Sources */,
+				A1B813C11B75076200E105FA /* GKBandSensorManager.swift in Sources */,
+				A1A3F1C11B68054C00A14F6B /* Extensions.swift in Sources */,
+				A1B813B51B74223000E105FA /* GKGesturePattern.swift in Sources */,
+				A1A0766A1B6624230057296B /* DDTTYLogger.m in Sources */,
+				A1B813BB1B74337400E105FA /* GKGesture.swift in Sources */,
+				A180786E1B6822D7004C5F06 /* SlidesViewController.swift in Sources */,
+				A1A076661B6624230057296B /* DDAbstractDatabaseLogger.m in Sources */,
+				A1B813B71B74295000E105FA /* GKGestureDataStoringQueue.swift in Sources */,
+				A180786C1B68229C004C5F06 /* SlidesWebAndImageViewsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A2FD251B62D7ED00CA3B85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E90B131B76E21A00646960 /* HKWatchController.swift in Sources */,
+				A1A2FD311B62D7ED00CA3B85 /* ExtensionDelegate.swift in Sources */,
+				A12DEE3E1B75B67F00C77306 /* GKGesture.swift in Sources */,
+				A1E90B091B76D9B500646960 /* HKWatchSensorManager.swift in Sources */,
+				A14A9A871B726330002D4782 /* TrainnerRootInterfaceController.swift in Sources */,
+				A14A9A891B7264CE002D4782 /* TrainnerInterfaceController.swift in Sources */,
+				A1A2FD2F1B62D7ED00CA3B85 /* InterfaceController.swift in Sources */,
+				A1E90B101B76DF7A00646960 /* HKWatchSession.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1A2FD1D1B62D7ED00CA3B85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1A2FD191B62D7ED00CA3B85 /* BSSDemo WatchKit App */;
+			targetProxy = A1A2FD1C1B62D7ED00CA3B85 /* PBXContainerItemProxy */;
+		};
+		A1A2FD2C1B62D7ED00CA3B85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1A2FD281B62D7ED00CA3B85 /* BSSDemo WatchKit Extension */;
+			targetProxy = A1A2FD2B1B62D7ED00CA3B85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1A2FD141B62D7EC00CA3B85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1A2FD151B62D7EC00CA3B85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A1A2FD1F1B62D7ED00CA3B85 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1A2FD201B62D7ED00CA3B85 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1A2FD351B62D7ED00CA3B85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1A2FD361B62D7ED00CA3B85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1A2FD381B62D7ED00CA3B85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "BSSDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.BSSDemo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A1A2FD391B62D7ED00CA3B85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "BSSDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.BSSDemo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A1A2FD3C1B62D7ED00CA3B85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = BSSDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "BSSDemo WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.BSSDemo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A1A2FD3D1B62D7ED00CA3B85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = BSSDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "BSSDemo WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.BSSDemo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A1A2FD401B62D7ED00CA3B85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
+				INFOPLIST_FILE = BSSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.BSSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Frameworks/BSSDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1A2FD411B62D7ED00CA3B85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
+				INFOPLIST_FILE = BSSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.BSSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Frameworks/BSSDemo-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1A2FD031B62D7EC00CA3B85 /* Build configuration list for PBXProject "BSSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A2FD351B62D7ED00CA3B85 /* Debug */,
+				A1A2FD361B62D7ED00CA3B85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A2FD371B62D7ED00CA3B85 /* Build configuration list for PBXNativeTarget "BSSDemo WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A2FD381B62D7ED00CA3B85 /* Debug */,
+				A1A2FD391B62D7ED00CA3B85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A2FD3B1B62D7ED00CA3B85 /* Build configuration list for PBXNativeTarget "BSSDemo WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A2FD3C1B62D7ED00CA3B85 /* Debug */,
+				A1A2FD3D1B62D7ED00CA3B85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A2FD3F1B62D7ED00CA3B85 /* Build configuration list for PBXNativeTarget "BSSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A2FD401B62D7ED00CA3B85 /* Debug */,
+				A1A2FD411B62D7ED00CA3B85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1A2FD001B62D7EC00CA3B85 /* Project object */;
+}

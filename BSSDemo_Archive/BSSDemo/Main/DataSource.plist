@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Source</key>
+		<string>Gesture</string>
+		<key>Action</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Control Music</string>
+				<key>Description</key>
+				<string>Use gesture left/right to switch through songs, use gesture up/down to adjust volume, and use gesture push to pause/play music</string>
+				<key>StoryboardName</key>
+				<string>Muse</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Control Slides</string>
+				<key>Description</key>
+				<string>Use gesture up to go back to previous slide, and gesture down to next slide, and gesture push to go back to the first slide</string>
+				<key>StoryboardName</key>
+				<string>Slider</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Control Sphero</string>
+				<key>Description</key>
+				<string>Use your watch/band as spheor controller to control your sphero</string>
+				<key>StoryboardName</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Control Lighting</string>
+				<key>Description</key>
+				<string></string>
+				<key>StoryboardName</key>
+				<string>LightBulb</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Control Room Temperature</string>
+				<key>Description</key>
+				<string></string>
+				<key>StoryboardName</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Make Phone Call</string>
+				<key>Description</key>
+				<string></string>
+				<key>StoryboardName</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Wave For Waiter</string>
+				<key>Description</key>
+				<string></string>
+				<key>StoryboardName</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>More User Define</string>
+				<key>Description</key>
+				<string></string>
+				<key>StoryboardName</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Source</key>
+		<string>Heart Rate</string>
+		<key>Action</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Control Music</string>
+				<key>Description</key>
+				<string></string>
+				<key>StoryboardName</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Make Phone Call</string>
+				<key>Description</key>
+				<string></string>
+				<key>StoryboardName</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>More User Define</string>
+				<key>Description</key>
+				<string></string>
+				<key>StoryboardName</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Source</key>
+		<string>Skin Temperature</string>
+		<key>Action</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Control Lighting</string>
+				<key>Description</key>
+				<string></string>
+				<key>StoryboardName</key>
+				<string>LightBulbST</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Control Room Temperature</string>
+				<key>Description</key>
+				<string></string>
+				<key>StoryboardName</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Make Phone Call</string>
+				<key>Description</key>
+				<string></string>
+				<key>StoryboardName</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>More User Define</string>
+				<key>Description</key>
+				<string></string>
+				<key>StoryboardName</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Source</key>
+		<string>Sweating Level</string>
+		<key>Action</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Makeup Notification</string>
+				<key>Description</key>
+				<string></string>
+				<key>StoryboardName</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>More User Define</string>
+				<key>Description</key>
+				<string></string>
+				<key>StoryboardName</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8121.20" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8066.14"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <label width="1" height="0.33000000000000002" alignment="center" text="Not Playing" textAlignment="center" id="gwp-WP-mGT">
+                            <fontDescription key="font" type="system" pointSize="12"/>
+                        </label>
+                        <group width="1" height="0.33000000000000002" alignment="center" verticalAlignment="center" id="MnZ-SZ-jJo">
+                            <items>
+                                <button width="45" height="45" alignment="center" verticalAlignment="center" backgroundImage="hide-left-icon.png" id="Fqq-fg-Joq">
+                                    <connections>
+                                        <action selector="lastSongButtonClick" destination="AgC-eL-Hgc" id="evQ-Oh-Y4w"/>
+                                    </connections>
+                                </button>
+                                <button width="45" height="45" alignment="center" verticalAlignment="center" backgroundImage="continue-icon.png" id="izl-BV-HxD">
+                                    <connections>
+                                        <action selector="playSongButtonClick" destination="AgC-eL-Hgc" id="HOb-B8-OmJ"/>
+                                    </connections>
+                                </button>
+                                <button width="45" height="45" alignment="center" verticalAlignment="center" backgroundImage="hide-right-icon.png" id="ehb-Al-Wvm">
+                                    <connections>
+                                        <action selector="nextSongButtonClick" destination="AgC-eL-Hgc" id="pmU-Px-ofK"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label width="1" height="0.33000000000000002" alignment="center" verticalAlignment="bottom" textAlignment="center" id="von-I8-2uD">
+                            <fontDescription key="font" type="system" pointSize="10"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="dataLabel" destination="von-I8-2uD" id="bvm-q1-Kef"/>
+                        <outlet property="playSongButton" destination="izl-BV-HxD" id="AAu-Xg-ygU"/>
+                        <outlet property="songTitleLabel" destination="gwp-WP-mGT" id="H0p-5N-uRA"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="469" y="337"/>
+        </scene>
+    </scenes>
+</document>

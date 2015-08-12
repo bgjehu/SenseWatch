@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A12F602B1B364660005F140C /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12F602A1B364660005F140C /* WatchConnectivity.framework */; };
+		A12F602D1B364855005F140C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12F602C1B364855005F140C /* CoreMotion.framework */; };
+		A14D4A241B37653600E3A257 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14D4A1E1B37653500E3A257 /* Bolts.framework */; };
+		A14D4A251B37653600E3A257 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14D4A1F1B37653500E3A257 /* Parse.framework */; };
+		A14D4A261B37653600E3A257 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14D4A201B37653500E3A257 /* ParseCrashReporting.framework */; };
+		A14D4A271B37653600E3A257 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14D4A211B37653500E3A257 /* ParseFacebookUtils.framework */; };
+		A14D4A281B37653600E3A257 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14D4A221B37653600E3A257 /* ParseFacebookUtilsV4.framework */; };
+		A14D4A291B37653600E3A257 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14D4A231B37653600E3A257 /* ParseUI.framework */; };
+		A1545C2A1B3764090004945B /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A1545C291B3764090004945B /* libz.1.dylib */; };
+		A1545C2C1B3764280004945B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A1545C2B1B3764280004945B /* libsqlite3.dylib */; };
+		A16244541B36237300930363 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A16244531B36237300930363 /* main.m */; };
+		A16244571B36237300930363 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A16244561B36237300930363 /* AppDelegate.m */; };
+		A162445A1B36237300930363 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16244591B36237300930363 /* ViewController.m */; };
+		A162445D1B36237300930363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A162445B1B36237300930363 /* Main.storyboard */; };
+		A162445F1B36237300930363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A162445E1B36237300930363 /* Assets.xcassets */; };
+		A16244621B36237300930363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16244601B36237300930363 /* LaunchScreen.storyboard */; };
+		A16244671B36237300930363 /* MuseTrainer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A16244661B36237300930363 /* MuseTrainer WatchKit App.app */; };
+		A162446D1B36237300930363 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A162446B1B36237300930363 /* Interface.storyboard */; };
+		A162446F1B36237300930363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A162446E1B36237300930363 /* Assets.xcassets */; };
+		A16244761B36237300930363 /* MuseTrainer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A16244751B36237300930363 /* MuseTrainer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A162447C1B36237300930363 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A162447B1B36237300930363 /* InterfaceController.m */; };
+		A162447F1B36237300930363 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A162447E1B36237300930363 /* ExtensionDelegate.m */; };
+		A16244811B36237300930363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16244801B36237300930363 /* Assets.xcassets */; };
+		A16244921B36298000930363 /* TrainnerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A16244911B36298000930363 /* TrainnerController.m */; };
+		A17466791B374B4B00C39E69 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A17466781B374B4B00C39E69 /* AlertViewController.m */; };
+		A18E72431B37628F00FD2478 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18E72421B37628F00FD2478 /* AudioToolbox.framework */; };
+		A18E72451B37629700FD2478 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18E72441B37629700FD2478 /* CFNetwork.framework */; };
+		A18E72471B37629E00FD2478 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18E72461B37629E00FD2478 /* CoreGraphics.framework */; };
+		A18E72491B3762A400FD2478 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18E72481B3762A400FD2478 /* CoreLocation.framework */; };
+		A18E724B1B3762AE00FD2478 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18E724A1B3762AE00FD2478 /* MobileCoreServices.framework */; };
+		A18E724D1B3762B500FD2478 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18E724C1B3762B500FD2478 /* QuartzCore.framework */; };
+		A18E724F1B3762BC00FD2478 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18E724E1B3762BC00FD2478 /* Security.framework */; };
+		A18E72511B3762C300FD2478 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18E72501B3762C300FD2478 /* StoreKit.framework */; };
+		A18E72531B3762CA00FD2478 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18E72521B3762CA00FD2478 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A16244681B36237300930363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A16244471B36237300930363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A16244651B36237300930363;
+			remoteInfo = "MuseTrainer WatchKit App";
+		};
+		A16244771B36237300930363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A16244471B36237300930363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A16244741B36237300930363;
+			remoteInfo = "MuseTrainer WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A16244881B36237300930363 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A16244761B36237300930363 /* MuseTrainer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A162448C1B36237300930363 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A16244671B36237300930363 /* MuseTrainer WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A12F602A1B364660005F140C /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		A12F602C1B364855005F140C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		A14D4A1E1B37653500E3A257 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Frameworks/Bolts.framework; sourceTree = "<group>"; };
+		A14D4A1F1B37653500E3A257 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Frameworks/Parse.framework; sourceTree = "<group>"; };
+		A14D4A201B37653500E3A257 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = Frameworks/ParseCrashReporting.framework; sourceTree = "<group>"; };
+		A14D4A211B37653500E3A257 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = Frameworks/ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		A14D4A221B37653600E3A257 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = Frameworks/ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		A14D4A231B37653600E3A257 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = Frameworks/ParseUI.framework; sourceTree = "<group>"; };
+		A1545C291B3764090004945B /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		A1545C2B1B3764280004945B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		A162444F1B36237300930363 /* MuseTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuseTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16244531B36237300930363 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A16244551B36237300930363 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A16244561B36237300930363 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A16244581B36237300930363 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A16244591B36237300930363 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A162445C1B36237300930363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A162445E1B36237300930363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A16244611B36237300930363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A16244631B36237300930363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16244661B36237300930363 /* MuseTrainer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MuseTrainer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A162446C1B36237300930363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A162446E1B36237300930363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A16244701B36237300930363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16244751B36237300930363 /* MuseTrainer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MuseTrainer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A162447A1B36237300930363 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		A162447B1B36237300930363 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		A162447D1B36237300930363 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		A162447E1B36237300930363 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		A16244801B36237300930363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A16244821B36237300930363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16244901B36298000930363 /* TrainnerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainnerController.h; sourceTree = "<group>"; };
+		A16244911B36298000930363 /* TrainnerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainnerController.m; sourceTree = "<group>"; };
+		A17466771B374B4B00C39E69 /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		A17466781B374B4B00C39E69 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		A18E72421B37628F00FD2478 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A18E72441B37629700FD2478 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A18E72461B37629E00FD2478 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A18E72481B3762A400FD2478 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A18E724A1B3762AE00FD2478 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A18E724C1B3762B500FD2478 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A18E724E1B3762BC00FD2478 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A18E72501B3762C300FD2478 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A18E72521B3762CA00FD2478 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A1C3C2B81B7186040036F23D /* MuseTrainer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MuseTrainer-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A162444C1B36237300930363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1545C2C1B3764280004945B /* libsqlite3.dylib in Frameworks */,
+				A1545C2A1B3764090004945B /* libz.1.dylib in Frameworks */,
+				A18E72531B3762CA00FD2478 /* SystemConfiguration.framework in Frameworks */,
+				A18E72511B3762C300FD2478 /* StoreKit.framework in Frameworks */,
+				A14D4A251B37653600E3A257 /* Parse.framework in Frameworks */,
+				A14D4A271B37653600E3A257 /* ParseFacebookUtils.framework in Frameworks */,
+				A18E724F1B3762BC00FD2478 /* Security.framework in Frameworks */,
+				A18E724D1B3762B500FD2478 /* QuartzCore.framework in Frameworks */,
+				A18E724B1B3762AE00FD2478 /* MobileCoreServices.framework in Frameworks */,
+				A18E72491B3762A400FD2478 /* CoreLocation.framework in Frameworks */,
+				A14D4A291B37653600E3A257 /* ParseUI.framework in Frameworks */,
+				A18E72471B37629E00FD2478 /* CoreGraphics.framework in Frameworks */,
+				A18E72451B37629700FD2478 /* CFNetwork.framework in Frameworks */,
+				A18E72431B37628F00FD2478 /* AudioToolbox.framework in Frameworks */,
+				A12F602D1B364855005F140C /* CoreMotion.framework in Frameworks */,
+				A14D4A281B37653600E3A257 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				A12F602B1B364660005F140C /* WatchConnectivity.framework in Frameworks */,
+				A14D4A241B37653600E3A257 /* Bolts.framework in Frameworks */,
+				A14D4A261B37653600E3A257 /* ParseCrashReporting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16244721B36237300930363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A12F60291B36464E005F140C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A14D4A1E1B37653500E3A257 /* Bolts.framework */,
+				A14D4A1F1B37653500E3A257 /* Parse.framework */,
+				A14D4A201B37653500E3A257 /* ParseCrashReporting.framework */,
+				A14D4A211B37653500E3A257 /* ParseFacebookUtils.framework */,
+				A14D4A221B37653600E3A257 /* ParseFacebookUtilsV4.framework */,
+				A14D4A231B37653600E3A257 /* ParseUI.framework */,
+				A1545C2B1B3764280004945B /* libsqlite3.dylib */,
+				A1545C291B3764090004945B /* libz.1.dylib */,
+				A18E72521B3762CA00FD2478 /* SystemConfiguration.framework */,
+				A18E72501B3762C300FD2478 /* StoreKit.framework */,
+				A18E724E1B3762BC00FD2478 /* Security.framework */,
+				A18E724C1B3762B500FD2478 /* QuartzCore.framework */,
+				A18E724A1B3762AE00FD2478 /* MobileCoreServices.framework */,
+				A18E72481B3762A400FD2478 /* CoreLocation.framework */,
+				A18E72461B37629E00FD2478 /* CoreGraphics.framework */,
+				A18E72441B37629700FD2478 /* CFNetwork.framework */,
+				A18E72421B37628F00FD2478 /* AudioToolbox.framework */,
+				A12F602C1B364855005F140C /* CoreMotion.framework */,
+				A12F602A1B364660005F140C /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A16244461B36237300930363 = {
+			isa = PBXGroup;
+			children = (
+				A12F60291B36464E005F140C /* Frameworks */,
+				A16244511B36237300930363 /* MuseTrainer */,
+				A162446A1B36237300930363 /* MuseTrainer WatchKit App */,
+				A16244791B36237300930363 /* MuseTrainer WatchKit Extension */,
+				A16244501B36237300930363 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A16244501B36237300930363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A162444F1B36237300930363 /* MuseTrainer.app */,
+				A16244661B36237300930363 /* MuseTrainer WatchKit App.app */,
+				A16244751B36237300930363 /* MuseTrainer WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A16244511B36237300930363 /* MuseTrainer */ = {
+			isa = PBXGroup;
+			children = (
+				A16244551B36237300930363 /* AppDelegate.h */,
+				A16244561B36237300930363 /* AppDelegate.m */,
+				A16244581B36237300930363 /* ViewController.h */,
+				A16244591B36237300930363 /* ViewController.m */,
+				A162445B1B36237300930363 /* Main.storyboard */,
+				A162445E1B36237300930363 /* Assets.xcassets */,
+				A16244601B36237300930363 /* LaunchScreen.storyboard */,
+				A16244631B36237300930363 /* Info.plist */,
+				A16244521B36237300930363 /* Supporting Files */,
+				A1C3C2B81B7186040036F23D /* MuseTrainer-Bridging-Header.h */,
+			);
+			path = MuseTrainer;
+			sourceTree = "<group>";
+		};
+		A16244521B36237300930363 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A16244531B36237300930363 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A162446A1B36237300930363 /* MuseTrainer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A162446B1B36237300930363 /* Interface.storyboard */,
+				A162446E1B36237300930363 /* Assets.xcassets */,
+				A16244701B36237300930363 /* Info.plist */,
+			);
+			path = "MuseTrainer WatchKit App";
+			sourceTree = "<group>";
+		};
+		A16244791B36237300930363 /* MuseTrainer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A162447A1B36237300930363 /* InterfaceController.h */,
+				A162447B1B36237300930363 /* InterfaceController.m */,
+				A162447D1B36237300930363 /* ExtensionDelegate.h */,
+				A162447E1B36237300930363 /* ExtensionDelegate.m */,
+				A16244801B36237300930363 /* Assets.xcassets */,
+				A16244821B36237300930363 /* Info.plist */,
+				A16244901B36298000930363 /* TrainnerController.h */,
+				A16244911B36298000930363 /* TrainnerController.m */,
+				A17466771B374B4B00C39E69 /* AlertViewController.h */,
+				A17466781B374B4B00C39E69 /* AlertViewController.m */,
+			);
+			path = "MuseTrainer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A162444E1B36237300930363 /* MuseTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A162448D1B36237300930363 /* Build configuration list for PBXNativeTarget "MuseTrainer" */;
+			buildPhases = (
+				A162444B1B36237300930363 /* Sources */,
+				A162444C1B36237300930363 /* Frameworks */,
+				A162444D1B36237300930363 /* Resources */,
+				A162448C1B36237300930363 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A16244691B36237300930363 /* PBXTargetDependency */,
+			);
+			name = MuseTrainer;
+			productName = MuseTrainer;
+			productReference = A162444F1B36237300930363 /* MuseTrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A16244651B36237300930363 /* MuseTrainer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A16244891B36237300930363 /* Build configuration list for PBXNativeTarget "MuseTrainer WatchKit App" */;
+			buildPhases = (
+				A16244641B36237300930363 /* Resources */,
+				A16244881B36237300930363 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A16244781B36237300930363 /* PBXTargetDependency */,
+			);
+			name = "MuseTrainer WatchKit App";
+			productName = "MuseTrainer WatchKit App";
+			productReference = A16244661B36237300930363 /* MuseTrainer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A16244741B36237300930363 /* MuseTrainer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A16244851B36237300930363 /* Build configuration list for PBXNativeTarget "MuseTrainer WatchKit Extension" */;
+			buildPhases = (
+				A16244711B36237300930363 /* Sources */,
+				A16244721B36237300930363 /* Frameworks */,
+				A16244731B36237300930363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MuseTrainer WatchKit Extension";
+			productName = "MuseTrainer WatchKit Extension";
+			productReference = A16244751B36237300930363 /* MuseTrainer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A16244471B36237300930363 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = SenseWatch;
+				TargetAttributes = {
+					A162444E1B36237300930363 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A16244651B36237300930363 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A16244741B36237300930363 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = A162444A1B36237300930363 /* Build configuration list for PBXProject "MuseTrainer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A16244461B36237300930363;
+			productRefGroup = A16244501B36237300930363 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A162444E1B36237300930363 /* MuseTrainer */,
+				A16244651B36237300930363 /* MuseTrainer WatchKit App */,
+				A16244741B36237300930363 /* MuseTrainer WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A162444D1B36237300930363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16244621B36237300930363 /* LaunchScreen.storyboard in Resources */,
+				A162445F1B36237300930363 /* Assets.xcassets in Resources */,
+				A162445D1B36237300930363 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16244641B36237300930363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A162446F1B36237300930363 /* Assets.xcassets in Resources */,
+				A162446D1B36237300930363 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16244731B36237300930363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16244811B36237300930363 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A162444B1B36237300930363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A162445A1B36237300930363 /* ViewController.m in Sources */,
+				A16244571B36237300930363 /* AppDelegate.m in Sources */,
+				A16244541B36237300930363 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16244711B36237300930363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A162447F1B36237300930363 /* ExtensionDelegate.m in Sources */,
+				A16244921B36298000930363 /* TrainnerController.m in Sources */,
+				A162447C1B36237300930363 /* InterfaceController.m in Sources */,
+				A17466791B374B4B00C39E69 /* AlertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A16244691B36237300930363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A16244651B36237300930363 /* MuseTrainer WatchKit App */;
+			targetProxy = A16244681B36237300930363 /* PBXContainerItemProxy */;
+		};
+		A16244781B36237300930363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A16244741B36237300930363 /* MuseTrainer WatchKit Extension */;
+			targetProxy = A16244771B36237300930363 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A162445B1B36237300930363 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A162445C1B36237300930363 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A16244601B36237300930363 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A16244611B36237300930363 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A162446B1B36237300930363 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A162446C1B36237300930363 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A16244831B36237300930363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A16244841B36237300930363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A16244861B36237300930363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "MuseTrainer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.MuseTrainer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A16244871B36237300930363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "MuseTrainer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.MuseTrainer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A162448A1B36237300930363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				IBSC_MODULE = MuseTrainer_WatchKit_Extension;
+				INFOPLIST_FILE = "MuseTrainer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.MuseTrainer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A162448B1B36237300930363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				IBSC_MODULE = MuseTrainer_WatchKit_Extension;
+				INFOPLIST_FILE = "MuseTrainer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.MuseTrainer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A162448E1B36237300930363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
+				INFOPLIST_FILE = MuseTrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.MuseTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MuseTrainer/MuseTrainer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A162448F1B36237300930363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
+				INFOPLIST_FILE = MuseTrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.MuseTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MuseTrainer/MuseTrainer-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A162444A1B36237300930363 /* Build configuration list for PBXProject "MuseTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A16244831B36237300930363 /* Debug */,
+				A16244841B36237300930363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A16244851B36237300930363 /* Build configuration list for PBXNativeTarget "MuseTrainer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A16244861B36237300930363 /* Debug */,
+				A16244871B36237300930363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A16244891B36237300930363 /* Build configuration list for PBXNativeTarget "MuseTrainer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A162448A1B36237300930363 /* Debug */,
+				A162448B1B36237300930363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A162448D1B36237300930363 /* Build configuration list for PBXNativeTarget "MuseTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A162448E1B36237300930363 /* Debug */,
+				A162448F1B36237300930363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A16244471B36237300930363 /* Project object */;
+}

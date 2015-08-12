@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8121.20" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8066.14"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="BSSDemo_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <switch width="1" height="0.33000000000000002" alignment="center" title="Motion Sensor" id="7ea-Wd-oN2">
+                            <connections>
+                                <action selector="motionSensorSwitchClick:" destination="AgC-eL-Hgc" id="o3c-Wq-jea"/>
+                            </connections>
+                        </switch>
+                        <group width="1" height="0.33000000000000002" alignment="center" verticalAlignment="center" id="rW8-ZO-iTd">
+                            <items>
+                                <button width="0.33000000000000002" height="1" alignment="left" verticalAlignment="center" title="◉" id="POV-gi-jIE">
+                                    <fontDescription key="font" type="boldSystem" pointSize="35"/>
+                                    <connections>
+                                        <action selector="pushButtonClick" destination="AgC-eL-Hgc" id="Dq6-97-8LC"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33000000000000002" height="1" alignment="center" verticalAlignment="center" title="↑" id="8mp-9D-LZL">
+                                    <fontDescription key="font" type="boldSystem" pointSize="35"/>
+                                    <connections>
+                                        <action selector="upButtonClick" destination="AgC-eL-Hgc" id="9M8-qc-gm7"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33000000000000002" height="1" alignment="right" verticalAlignment="center" title="✌︎" id="bdE-0F-YhJ">
+                                    <fontDescription key="font" type="boldSystem" pointSize="35"/>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.33000000000000002" alignment="center" verticalAlignment="bottom" id="WnR-lO-uGs">
+                            <items>
+                                <button width="0.33000000000000002" height="1" alignment="left" verticalAlignment="center" title="←" id="NsI-WD-Tk3">
+                                    <fontDescription key="font" type="boldSystem" pointSize="35"/>
+                                    <connections>
+                                        <action selector="leftButtonClick" destination="AgC-eL-Hgc" id="x9N-5o-xk9"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33000000000000002" height="1" alignment="center" verticalAlignment="center" title="↓" id="amI-Ou-E70">
+                                    <fontDescription key="font" type="boldSystem" pointSize="35"/>
+                                    <connections>
+                                        <action selector="downButtonClick" destination="AgC-eL-Hgc" id="Tbj-7r-3hX"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33000000000000002" height="1" alignment="right" verticalAlignment="center" title="→" id="ujI-sL-haL">
+                                    <fontDescription key="font" type="boldSystem" pointSize="35"/>
+                                    <connections>
+                                        <action selector="rightButtonClick" destination="AgC-eL-Hgc" id="fot-O2-7IM"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="motionSensorSwitch" destination="7ea-Wd-oN2" id="hGY-2E-EGL"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="100" y="519"/>
+        </scene>
+        <!--TrainnerIC-->
+        <scene sceneID="uUE-gH-sVH">
+            <objects>
+                <controller identifier="TrainnerIC" hidesWhenLoading="NO" id="ocy-gA-QwI" customClass="TrainnerInterfaceController" customModule="BSSDemo_WatchKit_Extension">
+                    <items>
+                        <label width="1" height="0.5" alignment="center" text="Gesture" textAlignment="center" id="sMe-CG-hvW">
+                            <fontDescription key="font" type="system" pointSize="38"/>
+                        </label>
+                        <button width="1" height="0.5" alignment="center" verticalAlignment="bottom" title="Train" id="fAJ-KO-CqU">
+                            <fontDescription key="font" type="system" pointSize="40"/>
+                            <connections>
+                                <action selector="trainButtonClicked" destination="ocy-gA-QwI" id="DPZ-Ys-GJu"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="gestureLabel" destination="sMe-CG-hvW" id="dvA-Kc-sEw"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="274" y="519.5"/>
+        </scene>
+    </scenes>
+</document>

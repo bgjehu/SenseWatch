@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9405DB3B1B2798AE00C4F76C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9405DB3A1B2798AE00C4F76C /* main.m */; };
+		9405DB3E1B2798AE00C4F76C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9405DB3D1B2798AE00C4F76C /* AppDelegate.m */; };
+		9405DB411B2798AE00C4F76C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9405DB401B2798AE00C4F76C /* ViewController.m */; };
+		9405DB441B2798AE00C4F76C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9405DB421B2798AE00C4F76C /* Main.storyboard */; };
+		9405DB471B2798AE00C4F76C /* SenseWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9405DB451B2798AE00C4F76C /* SenseWatch.xcdatamodeld */; };
+		9405DB491B2798AE00C4F76C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9405DB481B2798AE00C4F76C /* Assets.xcassets */; };
+		A100A3A01B2B58FA0056B9F5 /* MicrosoftBandKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A100A39E1B2B58FA0056B9F5 /* MicrosoftBandKit_iOS.framework */; };
+		A100A3A11B2B58FA0056B9F5 /* RobotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A100A39F1B2B58FA0056B9F5 /* RobotKit.framework */; };
+		A1AA64671B2A86C200091B81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1AA64661B2A86C200091B81 /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9405DB361B2798AE00C4F76C /* SenseWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SenseWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9405DB3A1B2798AE00C4F76C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9405DB3C1B2798AE00C4F76C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9405DB3D1B2798AE00C4F76C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9405DB3F1B2798AE00C4F76C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9405DB401B2798AE00C4F76C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9405DB431B2798AE00C4F76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9405DB461B2798AE00C4F76C /* SenseWatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SenseWatch.xcdatamodel; sourceTree = "<group>"; };
+		9405DB481B2798AE00C4F76C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9405DB4D1B2798AE00C4F76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A100A39E1B2B58FA0056B9F5 /* MicrosoftBandKit_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MicrosoftBandKit_iOS.framework; path = Frameworks/MicrosoftBandKit_iOS.framework; sourceTree = "<group>"; };
+		A100A39F1B2B58FA0056B9F5 /* RobotKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotKit.framework; path = Frameworks/RobotKit.framework; sourceTree = "<group>"; };
+		A1AA64661B2A86C200091B81 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9405DB331B2798AE00C4F76C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100A3A11B2B58FA0056B9F5 /* RobotKit.framework in Frameworks */,
+				A100A3A01B2B58FA0056B9F5 /* MicrosoftBandKit_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9405DB2D1B2798AE00C4F76C = {
+			isa = PBXGroup;
+			children = (
+				94D0C84E1B27CA4E00FCE017 /* Frameworks */,
+				9405DB381B2798AE00C4F76C /* SenseWatch */,
+				9405DB371B2798AE00C4F76C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9405DB371B2798AE00C4F76C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9405DB361B2798AE00C4F76C /* SenseWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9405DB381B2798AE00C4F76C /* SenseWatch */ = {
+			isa = PBXGroup;
+			children = (
+				9405DB3C1B2798AE00C4F76C /* AppDelegate.h */,
+				9405DB3D1B2798AE00C4F76C /* AppDelegate.m */,
+				9405DB3F1B2798AE00C4F76C /* ViewController.h */,
+				9405DB401B2798AE00C4F76C /* ViewController.m */,
+				9405DB421B2798AE00C4F76C /* Main.storyboard */,
+				9405DB481B2798AE00C4F76C /* Assets.xcassets */,
+				9405DB4D1B2798AE00C4F76C /* Info.plist */,
+				9405DB451B2798AE00C4F76C /* SenseWatch.xcdatamodeld */,
+				9405DB391B2798AE00C4F76C /* Supporting Files */,
+				A1AA64661B2A86C200091B81 /* LaunchScreen.xib */,
+			);
+			path = SenseWatch;
+			sourceTree = "<group>";
+		};
+		9405DB391B2798AE00C4F76C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9405DB3A1B2798AE00C4F76C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94D0C84E1B27CA4E00FCE017 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A100A39E1B2B58FA0056B9F5 /* MicrosoftBandKit_iOS.framework */,
+				A100A39F1B2B58FA0056B9F5 /* RobotKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9405DB351B2798AE00C4F76C /* SenseWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9405DB501B2798AE00C4F76C /* Build configuration list for PBXNativeTarget "SenseWatch" */;
+			buildPhases = (
+				9405DB321B2798AE00C4F76C /* Sources */,
+				9405DB331B2798AE00C4F76C /* Frameworks */,
+				9405DB341B2798AE00C4F76C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SenseWatch;
+			productName = SenseWatch;
+			productReference = 9405DB361B2798AE00C4F76C /* SenseWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9405DB2E1B2798AE00C4F76C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = SharpPug;
+				TargetAttributes = {
+					9405DB351B2798AE00C4F76C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 9405DB311B2798AE00C4F76C /* Build configuration list for PBXProject "SenseWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9405DB2D1B2798AE00C4F76C;
+			productRefGroup = 9405DB371B2798AE00C4F76C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9405DB351B2798AE00C4F76C /* SenseWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9405DB341B2798AE00C4F76C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1AA64671B2A86C200091B81 /* LaunchScreen.xib in Resources */,
+				9405DB491B2798AE00C4F76C /* Assets.xcassets in Resources */,
+				9405DB441B2798AE00C4F76C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9405DB321B2798AE00C4F76C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9405DB471B2798AE00C4F76C /* SenseWatch.xcdatamodeld in Sources */,
+				9405DB411B2798AE00C4F76C /* ViewController.m in Sources */,
+				9405DB3E1B2798AE00C4F76C /* AppDelegate.m in Sources */,
+				9405DB3B1B2798AE00C4F76C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9405DB421B2798AE00C4F76C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9405DB431B2798AE00C4F76C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9405DB4E1B2798AE00C4F76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9405DB4F1B2798AE00C4F76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9405DB511B2798AE00C4F76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = SenseWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharppug.SenseWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9405DB521B2798AE00C4F76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = SenseWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharppug.SenseWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9405DB311B2798AE00C4F76C /* Build configuration list for PBXProject "SenseWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9405DB4E1B2798AE00C4F76C /* Debug */,
+				9405DB4F1B2798AE00C4F76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9405DB501B2798AE00C4F76C /* Build configuration list for PBXNativeTarget "SenseWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9405DB511B2798AE00C4F76C /* Debug */,
+				9405DB521B2798AE00C4F76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9405DB451B2798AE00C4F76C /* SenseWatch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9405DB461B2798AE00C4F76C /* SenseWatch.xcdatamodel */,
+			);
+			currentVersion = 9405DB461B2798AE00C4F76C /* SenseWatch.xcdatamodel */;
+			path = SenseWatch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9405DB2E1B2798AE00C4F76C /* Project object */;
+}

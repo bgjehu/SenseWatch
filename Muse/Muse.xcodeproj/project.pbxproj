@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A19694581B409B3800A2F1DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A19694571B409B3800A2F1DE /* main.m */; };
+		A196945B1B409B3800A2F1DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A196945A1B409B3800A2F1DE /* AppDelegate.m */; };
+		A196945E1B409B3800A2F1DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A196945D1B409B3800A2F1DE /* ViewController.m */; };
+		A19694611B409B3800A2F1DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A196945F1B409B3800A2F1DE /* Main.storyboard */; };
+		A19694631B409B3800A2F1DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19694621B409B3800A2F1DE /* Assets.xcassets */; };
+		A19694661B409B3800A2F1DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19694641B409B3800A2F1DE /* LaunchScreen.storyboard */; };
+		A196946B1B409B3800A2F1DE /* Muse WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A196946A1B409B3800A2F1DE /* Muse WatchKit App.app */; };
+		A19694711B409B3800A2F1DE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A196946F1B409B3800A2F1DE /* Interface.storyboard */; };
+		A19694731B409B3800A2F1DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19694721B409B3800A2F1DE /* Assets.xcassets */; };
+		A196947A1B409B3800A2F1DE /* Muse WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A19694791B409B3800A2F1DE /* Muse WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A19694801B409B3800A2F1DE /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A196947F1B409B3800A2F1DE /* InterfaceController.m */; };
+		A19694831B409B3800A2F1DE /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A19694821B409B3800A2F1DE /* ExtensionDelegate.m */; };
+		A19694851B409B3800A2F1DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19694841B409B3800A2F1DE /* Assets.xcassets */; };
+		A19694A51B409B6C00A2F1DE /* continue-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A19694A01B409B6C00A2F1DE /* continue-icon.png */; };
+		A19694A61B409B6C00A2F1DE /* continue-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A19694A01B409B6C00A2F1DE /* continue-icon.png */; };
+		A19694A71B409B6C00A2F1DE /* hide-left-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A19694A11B409B6C00A2F1DE /* hide-left-icon.png */; };
+		A19694A81B409B6C00A2F1DE /* hide-left-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A19694A11B409B6C00A2F1DE /* hide-left-icon.png */; };
+		A19694A91B409B6C00A2F1DE /* hide-right-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A19694A21B409B6C00A2F1DE /* hide-right-icon.png */; };
+		A19694AA1B409B6C00A2F1DE /* hide-right-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A19694A21B409B6C00A2F1DE /* hide-right-icon.png */; };
+		A19694AB1B409B6C00A2F1DE /* pause-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A19694A31B409B6C00A2F1DE /* pause-icon.png */; };
+		A19694AC1B409B6C00A2F1DE /* pause-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A19694A31B409B6C00A2F1DE /* pause-icon.png */; };
+		A19694AD1B409B6C00A2F1DE /* stop-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A19694A41B409B6C00A2F1DE /* stop-icon.png */; };
+		A19694AE1B409B6C00A2F1DE /* stop-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A19694A41B409B6C00A2F1DE /* stop-icon.png */; };
+		A1A696C31B422C6F005E8BD1 /* continue-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A19694A01B409B6C00A2F1DE /* continue-icon.png */; };
+		A1A696C41B422C6F005E8BD1 /* pause-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A19694A31B409B6C00A2F1DE /* pause-icon.png */; };
+		A1E638A01B4308C700B98C46 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E6389F1B4308C700B98C46 /* CoreMotion.framework */; };
+		A1EA1CCB1B4349EF00D13891 /* Adobe-Muse-icon_87.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EA1CC81B4349BE00D13891 /* Adobe-Muse-icon_87.png */; };
+		A1EA1CCC1B4349EF00D13891 /* Adobe-Muse-icon_58.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EA1CC21B43470200D13891 /* Adobe-Muse-icon_58.png */; };
+		A1EA1CCD1B4349EF00D13891 /* Adobe-Muse-icon_80.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E0A8D31B40BDAC004C419A /* Adobe-Muse-icon_80.png */; };
+		A1EA1CCE1B4349EF00D13891 /* Adobe-Muse-icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E0A8CF1B40BD6E004C419A /* Adobe-Muse-icon_120.png */; };
+		A1EA1CCF1B4349EF00D13891 /* Adobe-Muse-icon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E0A8D01B40BD6E004C419A /* Adobe-Muse-icon_180.png */; };
+		A1EA1CD41B4349F100D13891 /* Adobe-Muse-icon_87.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EA1CC81B4349BE00D13891 /* Adobe-Muse-icon_87.png */; };
+		A1EA1CD51B4349F100D13891 /* Adobe-Muse-icon_58.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EA1CC21B43470200D13891 /* Adobe-Muse-icon_58.png */; };
+		A1EA1CD61B4349F100D13891 /* Adobe-Muse-icon_80.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E0A8D31B40BDAC004C419A /* Adobe-Muse-icon_80.png */; };
+		A1EA1CD71B4349F100D13891 /* Adobe-Muse-icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E0A8CF1B40BD6E004C419A /* Adobe-Muse-icon_120.png */; };
+		A1EA1CD81B4349F100D13891 /* Adobe-Muse-icon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E0A8D01B40BD6E004C419A /* Adobe-Muse-icon_180.png */; };
+		A1EA1CDC1B434A6D00D13891 /* Adobe-Muse-icon_48.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EA1CD91B434A6D00D13891 /* Adobe-Muse-icon_48.png */; };
+		A1EA1CDD1B434A6D00D13891 /* Adobe-Muse-icon_48.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EA1CD91B434A6D00D13891 /* Adobe-Muse-icon_48.png */; };
+		A1EA1CDE1B434A6D00D13891 /* Adobe-Muse-icon_55.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EA1CDA1B434A6D00D13891 /* Adobe-Muse-icon_55.png */; };
+		A1EA1CDF1B434A6D00D13891 /* Adobe-Muse-icon_55.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EA1CDA1B434A6D00D13891 /* Adobe-Muse-icon_55.png */; };
+		A1EA1CE01B434A6D00D13891 /* Adobe-Muse-icon_88.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EA1CDB1B434A6D00D13891 /* Adobe-Muse-icon_88.png */; };
+		A1EA1CE11B434A6D00D13891 /* Adobe-Muse-icon_88.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EA1CDB1B434A6D00D13891 /* Adobe-Muse-icon_88.png */; };
+		A1EA1CEA1B434BC400D13891 /* Adobe-Muse-icon_172.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EA1CE81B434BC400D13891 /* Adobe-Muse-icon_172.png */; };
+		A1EA1CEB1B434BC400D13891 /* Adobe-Muse-icon_172.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EA1CE81B434BC400D13891 /* Adobe-Muse-icon_172.png */; };
+		A1EA1CEC1B434BC400D13891 /* Adobe-Muse-icon_196.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EA1CE91B434BC400D13891 /* Adobe-Muse-icon_196.png */; };
+		A1EA1CED1B434BC400D13891 /* Adobe-Muse-icon_196.png in Resources */ = {isa = PBXBuildFile; fileRef = A1EA1CE91B434BC400D13891 /* Adobe-Muse-icon_196.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A196946C1B409B3800A2F1DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A196944B1B409B3800A2F1DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A19694691B409B3800A2F1DE;
+			remoteInfo = "Muse WatchKit App";
+		};
+		A196947B1B409B3800A2F1DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A196944B1B409B3800A2F1DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A19694781B409B3800A2F1DE;
+			remoteInfo = "Muse WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A196948C1B409B3800A2F1DE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A196947A1B409B3800A2F1DE /* Muse WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19694901B409B3800A2F1DE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A196946B1B409B3800A2F1DE /* Muse WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A19694531B409B3800A2F1DE /* Muse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19694571B409B3800A2F1DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A19694591B409B3800A2F1DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A196945A1B409B3800A2F1DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A196945C1B409B3800A2F1DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A196945D1B409B3800A2F1DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A19694601B409B3800A2F1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A19694621B409B3800A2F1DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A19694651B409B3800A2F1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A19694671B409B3800A2F1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A196946A1B409B3800A2F1DE /* Muse WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Muse WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19694701B409B3800A2F1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A19694721B409B3800A2F1DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A19694741B409B3800A2F1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A19694791B409B3800A2F1DE /* Muse WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Muse WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A196947E1B409B3800A2F1DE /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		A196947F1B409B3800A2F1DE /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = InterfaceController.m; sourceTree = "<group>"; };
+		A19694811B409B3800A2F1DE /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		A19694821B409B3800A2F1DE /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		A19694841B409B3800A2F1DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A19694861B409B3800A2F1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A19694A01B409B6C00A2F1DE /* continue-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "continue-icon.png"; sourceTree = "<group>"; };
+		A19694A11B409B6C00A2F1DE /* hide-left-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hide-left-icon.png"; sourceTree = "<group>"; };
+		A19694A21B409B6C00A2F1DE /* hide-right-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hide-right-icon.png"; sourceTree = "<group>"; };
+		A19694A31B409B6C00A2F1DE /* pause-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause-icon.png"; sourceTree = "<group>"; };
+		A19694A41B409B6C00A2F1DE /* stop-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stop-icon.png"; sourceTree = "<group>"; };
+		A1E0A8CF1B40BD6E004C419A /* Adobe-Muse-icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adobe-Muse-icon_120.png"; sourceTree = "<group>"; };
+		A1E0A8D01B40BD6E004C419A /* Adobe-Muse-icon_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adobe-Muse-icon_180.png"; sourceTree = "<group>"; };
+		A1E0A8D31B40BDAC004C419A /* Adobe-Muse-icon_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adobe-Muse-icon_80.png"; sourceTree = "<group>"; };
+		A1E6389F1B4308C700B98C46 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		A1EA1CC21B43470200D13891 /* Adobe-Muse-icon_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adobe-Muse-icon_58.png"; sourceTree = "<group>"; };
+		A1EA1CC81B4349BE00D13891 /* Adobe-Muse-icon_87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adobe-Muse-icon_87.png"; sourceTree = "<group>"; };
+		A1EA1CD91B434A6D00D13891 /* Adobe-Muse-icon_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adobe-Muse-icon_48.png"; sourceTree = "<group>"; };
+		A1EA1CDA1B434A6D00D13891 /* Adobe-Muse-icon_55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adobe-Muse-icon_55.png"; sourceTree = "<group>"; };
+		A1EA1CDB1B434A6D00D13891 /* Adobe-Muse-icon_88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adobe-Muse-icon_88.png"; sourceTree = "<group>"; };
+		A1EA1CE81B434BC400D13891 /* Adobe-Muse-icon_172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adobe-Muse-icon_172.png"; sourceTree = "<group>"; };
+		A1EA1CE91B434BC400D13891 /* Adobe-Muse-icon_196.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adobe-Muse-icon_196.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A19694501B409B3800A2F1DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E638A01B4308C700B98C46 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19694761B409B3800A2F1DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A196944A1B409B3800A2F1DE = {
+			isa = PBXGroup;
+			children = (
+				A1E638A11B4308CD00B98C46 /* Frameworks */,
+				A196949F1B409B6C00A2F1DE /* Resources */,
+				A19694551B409B3800A2F1DE /* Muse */,
+				A196946E1B409B3800A2F1DE /* Muse WatchKit App */,
+				A196947D1B409B3800A2F1DE /* Muse WatchKit Extension */,
+				A19694541B409B3800A2F1DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A19694541B409B3800A2F1DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A19694531B409B3800A2F1DE /* Muse.app */,
+				A196946A1B409B3800A2F1DE /* Muse WatchKit App.app */,
+				A19694791B409B3800A2F1DE /* Muse WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A19694551B409B3800A2F1DE /* Muse */ = {
+			isa = PBXGroup;
+			children = (
+				A19694591B409B3800A2F1DE /* AppDelegate.h */,
+				A196945A1B409B3800A2F1DE /* AppDelegate.m */,
+				A196945C1B409B3800A2F1DE /* ViewController.h */,
+				A196945D1B409B3800A2F1DE /* ViewController.m */,
+				A196945F1B409B3800A2F1DE /* Main.storyboard */,
+				A19694621B409B3800A2F1DE /* Assets.xcassets */,
+				A19694641B409B3800A2F1DE /* LaunchScreen.storyboard */,
+				A19694671B409B3800A2F1DE /* Info.plist */,
+				A19694561B409B3800A2F1DE /* Supporting Files */,
+			);
+			path = Muse;
+			sourceTree = "<group>";
+		};
+		A19694561B409B3800A2F1DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A19694571B409B3800A2F1DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A196946E1B409B3800A2F1DE /* Muse WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A196946F1B409B3800A2F1DE /* Interface.storyboard */,
+				A19694721B409B3800A2F1DE /* Assets.xcassets */,
+				A19694741B409B3800A2F1DE /* Info.plist */,
+			);
+			path = "Muse WatchKit App";
+			sourceTree = "<group>";
+		};
+		A196947D1B409B3800A2F1DE /* Muse WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A196947E1B409B3800A2F1DE /* InterfaceController.h */,
+				A196947F1B409B3800A2F1DE /* InterfaceController.m */,
+				A19694811B409B3800A2F1DE /* ExtensionDelegate.h */,
+				A19694821B409B3800A2F1DE /* ExtensionDelegate.m */,
+				A19694841B409B3800A2F1DE /* Assets.xcassets */,
+				A19694861B409B3800A2F1DE /* Info.plist */,
+			);
+			path = "Muse WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A196949F1B409B6C00A2F1DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA1CE81B434BC400D13891 /* Adobe-Muse-icon_172.png */,
+				A1EA1CE91B434BC400D13891 /* Adobe-Muse-icon_196.png */,
+				A1EA1CD91B434A6D00D13891 /* Adobe-Muse-icon_48.png */,
+				A1EA1CDA1B434A6D00D13891 /* Adobe-Muse-icon_55.png */,
+				A1EA1CDB1B434A6D00D13891 /* Adobe-Muse-icon_88.png */,
+				A1EA1CC81B4349BE00D13891 /* Adobe-Muse-icon_87.png */,
+				A1EA1CC21B43470200D13891 /* Adobe-Muse-icon_58.png */,
+				A1E0A8D31B40BDAC004C419A /* Adobe-Muse-icon_80.png */,
+				A1E0A8CF1B40BD6E004C419A /* Adobe-Muse-icon_120.png */,
+				A1E0A8D01B40BD6E004C419A /* Adobe-Muse-icon_180.png */,
+				A19694A01B409B6C00A2F1DE /* continue-icon.png */,
+				A19694A11B409B6C00A2F1DE /* hide-left-icon.png */,
+				A19694A21B409B6C00A2F1DE /* hide-right-icon.png */,
+				A19694A31B409B6C00A2F1DE /* pause-icon.png */,
+				A19694A41B409B6C00A2F1DE /* stop-icon.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A1E638A11B4308CD00B98C46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1E6389F1B4308C700B98C46 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A19694521B409B3800A2F1DE /* Muse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A19694911B409B3800A2F1DE /* Build configuration list for PBXNativeTarget "Muse" */;
+			buildPhases = (
+				A196944F1B409B3800A2F1DE /* Sources */,
+				A19694501B409B3800A2F1DE /* Frameworks */,
+				A19694511B409B3800A2F1DE /* Resources */,
+				A19694901B409B3800A2F1DE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A196946D1B409B3800A2F1DE /* PBXTargetDependency */,
+			);
+			name = Muse;
+			productName = Muse;
+			productReference = A19694531B409B3800A2F1DE /* Muse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A19694691B409B3800A2F1DE /* Muse WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A196948D1B409B3800A2F1DE /* Build configuration list for PBXNativeTarget "Muse WatchKit App" */;
+			buildPhases = (
+				A19694681B409B3800A2F1DE /* Resources */,
+				A196948C1B409B3800A2F1DE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A196947C1B409B3800A2F1DE /* PBXTargetDependency */,
+			);
+			name = "Muse WatchKit App";
+			productName = "Muse WatchKit App";
+			productReference = A196946A1B409B3800A2F1DE /* Muse WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A19694781B409B3800A2F1DE /* Muse WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A19694891B409B3800A2F1DE /* Build configuration list for PBXNativeTarget "Muse WatchKit Extension" */;
+			buildPhases = (
+				A19694751B409B3800A2F1DE /* Sources */,
+				A19694761B409B3800A2F1DE /* Frameworks */,
+				A19694771B409B3800A2F1DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Muse WatchKit Extension";
+			productName = "Muse WatchKit Extension";
+			productReference = A19694791B409B3800A2F1DE /* Muse WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A196944B1B409B3800A2F1DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = SenseWatch;
+				TargetAttributes = {
+					A19694521B409B3800A2F1DE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A19694691B409B3800A2F1DE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A19694781B409B3800A2F1DE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = A196944E1B409B3800A2F1DE /* Build configuration list for PBXProject "Muse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A196944A1B409B3800A2F1DE;
+			productRefGroup = A19694541B409B3800A2F1DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A19694521B409B3800A2F1DE /* Muse */,
+				A19694691B409B3800A2F1DE /* Muse WatchKit App */,
+				A19694781B409B3800A2F1DE /* Muse WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A19694511B409B3800A2F1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EA1CE01B434A6D00D13891 /* Adobe-Muse-icon_88.png in Resources */,
+				A19694661B409B3800A2F1DE /* LaunchScreen.storyboard in Resources */,
+				A1EA1CCD1B4349EF00D13891 /* Adobe-Muse-icon_80.png in Resources */,
+				A1EA1CEA1B434BC400D13891 /* Adobe-Muse-icon_172.png in Resources */,
+				A1EA1CCB1B4349EF00D13891 /* Adobe-Muse-icon_87.png in Resources */,
+				A19694AB1B409B6C00A2F1DE /* pause-icon.png in Resources */,
+				A1EA1CDE1B434A6D00D13891 /* Adobe-Muse-icon_55.png in Resources */,
+				A19694A91B409B6C00A2F1DE /* hide-right-icon.png in Resources */,
+				A19694631B409B3800A2F1DE /* Assets.xcassets in Resources */,
+				A19694AD1B409B6C00A2F1DE /* stop-icon.png in Resources */,
+				A1EA1CCF1B4349EF00D13891 /* Adobe-Muse-icon_180.png in Resources */,
+				A19694A71B409B6C00A2F1DE /* hide-left-icon.png in Resources */,
+				A1EA1CCE1B4349EF00D13891 /* Adobe-Muse-icon_120.png in Resources */,
+				A1EA1CEC1B434BC400D13891 /* Adobe-Muse-icon_196.png in Resources */,
+				A19694611B409B3800A2F1DE /* Main.storyboard in Resources */,
+				A19694A51B409B6C00A2F1DE /* continue-icon.png in Resources */,
+				A1EA1CDC1B434A6D00D13891 /* Adobe-Muse-icon_48.png in Resources */,
+				A1EA1CCC1B4349EF00D13891 /* Adobe-Muse-icon_58.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19694681B409B3800A2F1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19694A61B409B6C00A2F1DE /* continue-icon.png in Resources */,
+				A1EA1CDD1B434A6D00D13891 /* Adobe-Muse-icon_48.png in Resources */,
+				A1EA1CD51B4349F100D13891 /* Adobe-Muse-icon_58.png in Resources */,
+				A1EA1CE11B434A6D00D13891 /* Adobe-Muse-icon_88.png in Resources */,
+				A1EA1CD81B4349F100D13891 /* Adobe-Muse-icon_180.png in Resources */,
+				A19694AC1B409B6C00A2F1DE /* pause-icon.png in Resources */,
+				A19694A81B409B6C00A2F1DE /* hide-left-icon.png in Resources */,
+				A1EA1CED1B434BC400D13891 /* Adobe-Muse-icon_196.png in Resources */,
+				A1EA1CD71B4349F100D13891 /* Adobe-Muse-icon_120.png in Resources */,
+				A19694731B409B3800A2F1DE /* Assets.xcassets in Resources */,
+				A19694AE1B409B6C00A2F1DE /* stop-icon.png in Resources */,
+				A19694AA1B409B6C00A2F1DE /* hide-right-icon.png in Resources */,
+				A1EA1CEB1B434BC400D13891 /* Adobe-Muse-icon_172.png in Resources */,
+				A1EA1CDF1B434A6D00D13891 /* Adobe-Muse-icon_55.png in Resources */,
+				A19694711B409B3800A2F1DE /* Interface.storyboard in Resources */,
+				A1EA1CD61B4349F100D13891 /* Adobe-Muse-icon_80.png in Resources */,
+				A1EA1CD41B4349F100D13891 /* Adobe-Muse-icon_87.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19694771B409B3800A2F1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19694851B409B3800A2F1DE /* Assets.xcassets in Resources */,
+				A1A696C41B422C6F005E8BD1 /* pause-icon.png in Resources */,
+				A1A696C31B422C6F005E8BD1 /* continue-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A196944F1B409B3800A2F1DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A196945E1B409B3800A2F1DE /* ViewController.m in Sources */,
+				A196945B1B409B3800A2F1DE /* AppDelegate.m in Sources */,
+				A19694581B409B3800A2F1DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19694751B409B3800A2F1DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19694831B409B3800A2F1DE /* ExtensionDelegate.m in Sources */,
+				A19694801B409B3800A2F1DE /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A196946D1B409B3800A2F1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A19694691B409B3800A2F1DE /* Muse WatchKit App */;
+			targetProxy = A196946C1B409B3800A2F1DE /* PBXContainerItemProxy */;
+		};
+		A196947C1B409B3800A2F1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A19694781B409B3800A2F1DE /* Muse WatchKit Extension */;
+			targetProxy = A196947B1B409B3800A2F1DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A196945F1B409B3800A2F1DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A19694601B409B3800A2F1DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A19694641B409B3800A2F1DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A19694651B409B3800A2F1DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A196946F1B409B3800A2F1DE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A19694701B409B3800A2F1DE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A19694871B409B3800A2F1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A19694881B409B3800A2F1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A196948A1B409B3800A2F1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Muse WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.Muse.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A196948B1B409B3800A2F1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Muse WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.Muse.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A196948E1B409B3800A2F1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				IBSC_MODULE = Muse_WatchKit_Extension;
+				INFOPLIST_FILE = "Muse WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.Muse.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A196948F1B409B3800A2F1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				IBSC_MODULE = Muse_WatchKit_Extension;
+				INFOPLIST_FILE = "Muse WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.Muse.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A19694921B409B3800A2F1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Muse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.Muse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A19694931B409B3800A2F1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Muse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.Muse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A196944E1B409B3800A2F1DE /* Build configuration list for PBXProject "Muse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19694871B409B3800A2F1DE /* Debug */,
+				A19694881B409B3800A2F1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A19694891B409B3800A2F1DE /* Build configuration list for PBXNativeTarget "Muse WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A196948A1B409B3800A2F1DE /* Debug */,
+				A196948B1B409B3800A2F1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A196948D1B409B3800A2F1DE /* Build configuration list for PBXNativeTarget "Muse WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A196948E1B409B3800A2F1DE /* Debug */,
+				A196948F1B409B3800A2F1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A19694911B409B3800A2F1DE /* Build configuration list for PBXNativeTarget "Muse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19694921B409B3800A2F1DE /* Debug */,
+				A19694931B409B3800A2F1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A196944B1B409B3800A2F1DE /* Project object */;
+}

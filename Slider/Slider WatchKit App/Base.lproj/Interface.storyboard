@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8121.20" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8066.14"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Slider_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="center" id="GQR-Rp-RfK">
+                            <items>
+                                <switch width="1" alignment="center" title="Sensor" id="x1f-JD-SGH">
+                                    <connections>
+                                        <action selector="SensorSwitchClick:" destination="AgC-eL-Hgc" id="EtX-QR-Jof"/>
+                                    </connections>
+                                </switch>
+                            </items>
+                        </group>
+                        <group width="1" alignment="center" id="gpX-zs-pyx">
+                            <items>
+                                <button width="43" height="43" alignment="left" title="◉" id="oGu-rO-rWh">
+                                    <fontDescription key="font" type="system" pointSize="33"/>
+                                    <connections>
+                                        <action selector="pushButtonClick" destination="AgC-eL-Hgc" id="MIK-pg-acP"/>
+                                    </connections>
+                                </button>
+                                <button width="43" height="43" alignment="center" title="↑" id="3ib-kq-log">
+                                    <fontDescription key="font" type="system" pointSize="33"/>
+                                    <connections>
+                                        <action selector="upButtonClick" destination="AgC-eL-Hgc" id="JFv-O4-5gD"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="center" id="SHb-Y0-IjL">
+                            <items>
+                                <button width="43" height="43" alignment="center" title="←" id="q1P-9u-rb2">
+                                    <fontDescription key="font" type="system" pointSize="33"/>
+                                    <connections>
+                                        <action selector="leftButtonClick" destination="AgC-eL-Hgc" id="e91-t3-Oij"/>
+                                    </connections>
+                                </button>
+                                <button width="43" height="43" alignment="center" title="↓" id="biK-ZW-Qe2">
+                                    <fontDescription key="font" type="system" pointSize="33"/>
+                                    <connections>
+                                        <action selector="downButtonClick" destination="AgC-eL-Hgc" id="3h6-Kx-hXQ"/>
+                                    </connections>
+                                </button>
+                                <button width="43" height="43" alignment="center" title="→" id="u02-N3-NZi">
+                                    <fontDescription key="font" type="system" pointSize="33"/>
+                                    <connections>
+                                        <action selector="rightButtonClick" destination="AgC-eL-Hgc" id="ebv-KK-UKd"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
