@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<body>
+		
+		<h2>Contact Form</h2>
+		
+		<form id="commentForm">
+			
+			<p>
+			<label for="name">Your Name</label>
+			<input type="text" name="name" id="name" required>
+			</p>
+
+			<p>
+			<label for="email">Your Email</label>
+			<input type="email" name="email" id="email" required>
+			</p>
+
+			<p>
+			<label for="area">Your question involves:</label>
+			<select name="area" id="area">
+			<option value="stuff">Stuff</option>	
+			<option value="otherstuff">Other Stuff</option>	
+			<option value="starwars">Star Wars</option>	
+			<option value="startrek">Star Trek</option>	
+			</select>
+			</p>
+
+			<p>
+			<label for="comments">Your Comments<br/></label>
+			<textarea name="comments" id="comments" required></textarea>
+			</p>
+			
+			<p>
+			<input type="submit" value="Send Comments">
+			</p>
+		</form>
+		
+		<script src="http://www.parsecdn.com/js/parse-1.2.12.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="sendform.js"></script>
+	
+	</body>
+</html>
