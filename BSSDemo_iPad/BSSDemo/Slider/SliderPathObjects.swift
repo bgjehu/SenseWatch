@@ -18,23 +18,23 @@ class SliderPathObjects: NSObject {
     
     var filePath : String {
         let path = SliderGlobalVar.appSliderContent
-        let filePath = path.stringByAppendingPathComponent(fileName)
+        let filePath = (path as NSString).stringByAppendingPathComponent(fileName)
         return filePath
     }
     
     var cachePath : String {
         let path = SliderGlobalVar.appSliderCache
-        let cachePath = path.stringByAppendingPathComponent(fileName) + ".cache"
+        let cachePath = (path as NSString).stringByAppendingPathComponent(fileName) + ".cache"
         return cachePath
     }
     
     var fileTitle : String {
-        let title = fileName.stringByDeletingPathExtension
+        let title = (fileName as NSString).stringByDeletingPathExtension
         return title
     }
     
     var fileExtension : String {
-        let ext = fileName.pathExtension
+        let ext = (fileName as NSString).pathExtension
         return ext
     }
     
