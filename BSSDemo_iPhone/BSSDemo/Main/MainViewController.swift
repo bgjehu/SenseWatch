@@ -247,7 +247,7 @@ class MainViewController: UIViewController, UIPickerViewDataSource, UIPickerView
         let path : String = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0]
         
         do{
-            try "".writeToFile(path.stringByAppendingPathComponent(name), atomically: true, encoding: NSUTF8StringEncoding)
+            try "".writeToFile((path as NSString).stringByAppendingPathComponent(name), atomically: true, encoding: NSUTF8StringEncoding)
             print("create folder indicator \(name)")
         }
         catch let error as NSError {

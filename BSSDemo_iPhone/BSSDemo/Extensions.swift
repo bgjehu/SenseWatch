@@ -31,7 +31,7 @@ extension UIWebView {
     
     var screenshot : UIImage {
         UIGraphicsBeginImageContext(self.bounds.size)
-        self.layer.renderInContext(UIGraphicsGetCurrentContext())
+        self.layer.renderInContext(UIGraphicsGetCurrentContext()!)
         let img = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         return img

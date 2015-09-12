@@ -50,7 +50,7 @@ class GKGesturePattern: NSObject {
         do{
             let jsonData = try NSJSONSerialization.dataWithJSONObject(dataPoints, options: NSJSONWritingOptions.PrettyPrinted)
             let jsonStr = NSString(data: jsonData, encoding: NSUTF8StringEncoding)
-            let fileName = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)[0].stringByAppendingPathComponent("\(name).gest")
+            let fileName = (NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)[0] as NSString).stringByAppendingPathComponent("\(name).gest")
             try jsonStr?.writeToFile(fileName, atomically: true, encoding: NSUTF8StringEncoding)
         } catch let error as NSError {
             print(error)
