@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFD876131BA5242C00E31AC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876121BA5242C00E31AC5 /* AppDelegate.swift */; };
+		CFD876181BA5242C00E31AC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD876161BA5242C00E31AC5 /* Main.storyboard */; };
+		CFD8761A1BA5242C00E31AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD876191BA5242C00E31AC5 /* Assets.xcassets */; };
+		CFD8761D1BA5242C00E31AC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD8761B1BA5242C00E31AC5 /* LaunchScreen.storyboard */; };
+		CFD876221BA5242D00E31AC5 /* AirFlip WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CFD876211BA5242D00E31AC5 /* AirFlip WatchKit App.app */; };
+		CFD876281BA5242D00E31AC5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD876261BA5242D00E31AC5 /* Interface.storyboard */; };
+		CFD8762A1BA5242D00E31AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD876291BA5242D00E31AC5 /* Assets.xcassets */; };
+		CFD876311BA5242D00E31AC5 /* AirFlip WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CFD876301BA5242D00E31AC5 /* AirFlip WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CFD876361BA5242D00E31AC5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876351BA5242D00E31AC5 /* InterfaceController.swift */; };
+		CFD876381BA5242D00E31AC5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876371BA5242D00E31AC5 /* ExtensionDelegate.swift */; };
+		CFD8763A1BA5242D00E31AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD876391BA5242D00E31AC5 /* Assets.xcassets */; };
+		CFD8764A1BA525D100E31AC5 /* TrainnerRootInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876491BA525D100E31AC5 /* TrainnerRootInterfaceController.swift */; };
+		CFD8764E1BA5260300E31AC5 /* TrainnerInterfaceController.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8764D1BA5260300E31AC5 /* TrainnerInterfaceController.swift .swift */; };
+		CFD876511BA526D500E31AC5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8764F1BA526D500E31AC5 /* Extensions.swift */; };
+		CFD876521BA526D500E31AC5 /* GlobalVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876501BA526D500E31AC5 /* GlobalVar.swift */; };
+		CFD8765E1BA528E300E31AC5 /* SlidesCachingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876531BA528E300E31AC5 /* SlidesCachingViewController.swift */; };
+		CFD8765F1BA528E300E31AC5 /* SlidesPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876541BA528E300E31AC5 /* SlidesPreviewController.swift */; };
+		CFD876601BA528E300E31AC5 /* SlidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876551BA528E300E31AC5 /* SlidesViewController.swift */; };
+		CFD876611BA528E300E31AC5 /* SlidesCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876561BA528E300E31AC5 /* SlidesCache.swift */; };
+		CFD876621BA528E300E31AC5 /* SlidesViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876571BA528E300E31AC5 /* SlidesViewControllerProtocol.swift */; };
+		CFD876631BA528E300E31AC5 /* SlidesImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876581BA528E300E31AC5 /* SlidesImageViewController.swift */; };
+		CFD876641BA528E300E31AC5 /* SlidesWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876591BA528E300E31AC5 /* SlidesWebViewController.swift */; };
+		CFD876651BA528E300E31AC5 /* SlidesWebAndImageViewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8765A1BA528E300E31AC5 /* SlidesWebAndImageViewsController.swift */; };
+		CFD876661BA528E300E31AC5 /* SliderPathObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8765B1BA528E300E31AC5 /* SliderPathObjects.swift */; };
+		CFD876671BA528E300E31AC5 /* SliderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8765C1BA528E300E31AC5 /* SliderExtension.swift */; };
+		CFD876681BA528E300E31AC5 /* SliderGlobalVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8765D1BA528E300E31AC5 /* SliderGlobalVar.swift */; };
+		CFD8767C1BA52B2C00E31AC5 /* GKBandSensorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876741BA52B2C00E31AC5 /* GKBandSensorManager.swift */; };
+		CFD8767D1BA52B2C00E31AC5 /* GKBandSensorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876741BA52B2C00E31AC5 /* GKBandSensorManager.swift */; };
+		CFD8767E1BA52B2C00E31AC5 /* GKGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876751BA52B2C00E31AC5 /* GKGesture.swift */; };
+		CFD8767F1BA52B2C00E31AC5 /* GKGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876751BA52B2C00E31AC5 /* GKGesture.swift */; };
+		CFD876801BA52B2C00E31AC5 /* GKGestureClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876761BA52B2C00E31AC5 /* GKGestureClassifier.swift */; };
+		CFD876811BA52B2C00E31AC5 /* GKGestureClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876761BA52B2C00E31AC5 /* GKGestureClassifier.swift */; };
+		CFD876821BA52B2C00E31AC5 /* GKGestureDataRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876771BA52B2C00E31AC5 /* GKGestureDataRecorder.swift */; };
+		CFD876831BA52B2C00E31AC5 /* GKGestureDataRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876771BA52B2C00E31AC5 /* GKGestureDataRecorder.swift */; };
+		CFD876841BA52B2C00E31AC5 /* GKGestureDataStoringQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876781BA52B2C00E31AC5 /* GKGestureDataStoringQueue.swift */; };
+		CFD876851BA52B2C00E31AC5 /* GKGestureDataStoringQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876781BA52B2C00E31AC5 /* GKGestureDataStoringQueue.swift */; };
+		CFD876861BA52B2C00E31AC5 /* GKGesturePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876791BA52B2C00E31AC5 /* GKGesturePattern.swift */; };
+		CFD876871BA52B2C00E31AC5 /* GKGesturePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876791BA52B2C00E31AC5 /* GKGesturePattern.swift */; };
+		CFD876881BA52B2C00E31AC5 /* GKUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8767A1BA52B2C00E31AC5 /* GKUtilities.swift */; };
+		CFD876891BA52B2C00E31AC5 /* GKUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8767A1BA52B2C00E31AC5 /* GKUtilities.swift */; };
+		CFD8768A1BA52B2C00E31AC5 /* HKWatchSensorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8767B1BA52B2C00E31AC5 /* HKWatchSensorManager.swift */; };
+		CFD8768B1BA52B2C00E31AC5 /* HKWatchSensorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8767B1BA52B2C00E31AC5 /* HKWatchSensorManager.swift */; };
+		CFD876A71BA5311600E31AC5 /* HKAccelerometerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876A11BA5311600E31AC5 /* HKAccelerometerData.swift */; };
+		CFD876A81BA5311600E31AC5 /* HKAccelerometerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876A11BA5311600E31AC5 /* HKAccelerometerData.swift */; };
+		CFD876A91BA5311600E31AC5 /* HKHandheldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876A21BA5311600E31AC5 /* HKHandheldController.swift */; };
+		CFD876AA1BA5311600E31AC5 /* HKHandheldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876A21BA5311600E31AC5 /* HKHandheldController.swift */; };
+		CFD876AB1BA5311600E31AC5 /* HKHandheldSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876A31BA5311600E31AC5 /* HKHandheldSession.swift */; };
+		CFD876AC1BA5311600E31AC5 /* HKHandheldSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876A31BA5311600E31AC5 /* HKHandheldSession.swift */; };
+		CFD876AD1BA5311600E31AC5 /* HKWatchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876A41BA5311600E31AC5 /* HKWatchController.swift */; };
+		CFD876AE1BA5311600E31AC5 /* HKWatchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876A41BA5311600E31AC5 /* HKWatchController.swift */; };
+		CFD876AF1BA5311600E31AC5 /* HKWatchSensorManagerCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876A51BA5311600E31AC5 /* HKWatchSensorManagerCP.swift */; };
+		CFD876B01BA5311600E31AC5 /* HKWatchSensorManagerCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876A51BA5311600E31AC5 /* HKWatchSensorManagerCP.swift */; };
+		CFD876B11BA5311600E31AC5 /* HKWatchSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876A61BA5311600E31AC5 /* HKWatchSession.swift */; };
+		CFD876B21BA5311600E31AC5 /* HKWatchSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD876A61BA5311600E31AC5 /* HKWatchSession.swift */; };
+		CFD876BB1BA533B800E31AC5 /* HueSDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD876B91BA533B800E31AC5 /* HueSDK_iOS.framework */; };
+		CFD876BC1BA533B800E31AC5 /* HueSDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD876B91BA533B800E31AC5 /* HueSDK_iOS.framework */; };
+		CFD876BD1BA533B800E31AC5 /* MicrosoftBandKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD876BA1BA533B800E31AC5 /* MicrosoftBandKit_iOS.framework */; };
+		CFD876BE1BA533B800E31AC5 /* MicrosoftBandKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD876BA1BA533B800E31AC5 /* MicrosoftBandKit_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFD876231BA5242D00E31AC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFD876071BA5242C00E31AC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFD876201BA5242D00E31AC5;
+			remoteInfo = "AirFlip WatchKit App";
+		};
+		CFD876321BA5242D00E31AC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFD876071BA5242C00E31AC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFD8762F1BA5242D00E31AC5;
+			remoteInfo = "AirFlip WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFD876411BA5242D00E31AC5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CFD876311BA5242D00E31AC5 /* AirFlip WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD876451BA5242D00E31AC5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CFD876221BA5242D00E31AC5 /* AirFlip WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CFD8760F1BA5242C00E31AC5 /* AirFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD876121BA5242C00E31AC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFD876171BA5242C00E31AC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFD876191BA5242C00E31AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFD8761C1BA5242C00E31AC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFD8761E1BA5242C00E31AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD876211BA5242D00E31AC5 /* AirFlip WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirFlip WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD876271BA5242D00E31AC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CFD876291BA5242D00E31AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFD8762B1BA5242D00E31AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD876301BA5242D00E31AC5 /* AirFlip WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AirFlip WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD876351BA5242D00E31AC5 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CFD876371BA5242D00E31AC5 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CFD876391BA5242D00E31AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFD8763B1BA5242D00E31AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD876491BA525D100E31AC5 /* TrainnerRootInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainnerRootInterfaceController.swift; sourceTree = "<group>"; };
+		CFD8764D1BA5260300E31AC5 /* TrainnerInterfaceController.swift .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TrainnerInterfaceController.swift .swift"; path = "../TrainnerInterfaceController.swift .swift"; sourceTree = "<group>"; };
+		CFD8764F1BA526D500E31AC5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CFD876501BA526D500E31AC5 /* GlobalVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVar.swift; sourceTree = "<group>"; };
+		CFD876531BA528E300E31AC5 /* SlidesCachingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesCachingViewController.swift; sourceTree = "<group>"; };
+		CFD876541BA528E300E31AC5 /* SlidesPreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesPreviewController.swift; sourceTree = "<group>"; };
+		CFD876551BA528E300E31AC5 /* SlidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesViewController.swift; sourceTree = "<group>"; };
+		CFD876561BA528E300E31AC5 /* SlidesCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesCache.swift; sourceTree = "<group>"; };
+		CFD876571BA528E300E31AC5 /* SlidesViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesViewControllerProtocol.swift; sourceTree = "<group>"; };
+		CFD876581BA528E300E31AC5 /* SlidesImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesImageViewController.swift; sourceTree = "<group>"; };
+		CFD876591BA528E300E31AC5 /* SlidesWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesWebViewController.swift; sourceTree = "<group>"; };
+		CFD8765A1BA528E300E31AC5 /* SlidesWebAndImageViewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidesWebAndImageViewsController.swift; sourceTree = "<group>"; };
+		CFD8765B1BA528E300E31AC5 /* SliderPathObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderPathObjects.swift; sourceTree = "<group>"; };
+		CFD8765C1BA528E300E31AC5 /* SliderExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderExtension.swift; sourceTree = "<group>"; };
+		CFD8765D1BA528E300E31AC5 /* SliderGlobalVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderGlobalVar.swift; sourceTree = "<group>"; };
+		CFD876741BA52B2C00E31AC5 /* GKBandSensorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKBandSensorManager.swift; sourceTree = "<group>"; };
+		CFD876751BA52B2C00E31AC5 /* GKGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKGesture.swift; sourceTree = "<group>"; };
+		CFD876761BA52B2C00E31AC5 /* GKGestureClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKGestureClassifier.swift; sourceTree = "<group>"; };
+		CFD876771BA52B2C00E31AC5 /* GKGestureDataRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKGestureDataRecorder.swift; sourceTree = "<group>"; };
+		CFD876781BA52B2C00E31AC5 /* GKGestureDataStoringQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKGestureDataStoringQueue.swift; sourceTree = "<group>"; };
+		CFD876791BA52B2C00E31AC5 /* GKGesturePattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKGesturePattern.swift; sourceTree = "<group>"; };
+		CFD8767A1BA52B2C00E31AC5 /* GKUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKUtilities.swift; sourceTree = "<group>"; };
+		CFD8767B1BA52B2C00E31AC5 /* HKWatchSensorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKWatchSensorManager.swift; sourceTree = "<group>"; };
+		CFD876A11BA5311600E31AC5 /* HKAccelerometerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAccelerometerData.swift; sourceTree = "<group>"; };
+		CFD876A21BA5311600E31AC5 /* HKHandheldController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKHandheldController.swift; sourceTree = "<group>"; };
+		CFD876A31BA5311600E31AC5 /* HKHandheldSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKHandheldSession.swift; sourceTree = "<group>"; };
+		CFD876A41BA5311600E31AC5 /* HKWatchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKWatchController.swift; sourceTree = "<group>"; };
+		CFD876A51BA5311600E31AC5 /* HKWatchSensorManagerCP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKWatchSensorManagerCP.swift; sourceTree = "<group>"; };
+		CFD876A61BA5311600E31AC5 /* HKWatchSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKWatchSession.swift; sourceTree = "<group>"; };
+		CFD876B91BA533B800E31AC5 /* HueSDK_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HueSDK_iOS.framework; sourceTree = "<group>"; };
+		CFD876BA1BA533B800E31AC5 /* MicrosoftBandKit_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftBandKit_iOS.framework; sourceTree = "<group>"; };
+		CFD876BF1BA533EC00E31AC5 /* Bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFD8760C1BA5242C00E31AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD876BB1BA533B800E31AC5 /* HueSDK_iOS.framework in Frameworks */,
+				CFD876BD1BA533B800E31AC5 /* MicrosoftBandKit_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD8762D1BA5242D00E31AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD876BC1BA533B800E31AC5 /* HueSDK_iOS.framework in Frameworks */,
+				CFD876BE1BA533B800E31AC5 /* MicrosoftBandKit_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFD876061BA5242C00E31AC5 = {
+			isa = PBXGroup;
+			children = (
+				CFD876BF1BA533EC00E31AC5 /* Bridging-header.h */,
+				CFD876B91BA533B800E31AC5 /* HueSDK_iOS.framework */,
+				CFD876BA1BA533B800E31AC5 /* MicrosoftBandKit_iOS.framework */,
+				CFD876A01BA5311600E31AC5 /* HardwareKit */,
+				CFD876731BA52B2C00E31AC5 /* GestureKit */,
+				CFD8764F1BA526D500E31AC5 /* Extensions.swift */,
+				CFD876501BA526D500E31AC5 /* GlobalVar.swift */,
+				CFD876111BA5242C00E31AC5 /* AirFlip */,
+				CFD876251BA5242D00E31AC5 /* AirFlip WatchKit App */,
+				CFD876341BA5242D00E31AC5 /* AirFlip WatchKit Extension */,
+				CFD876101BA5242C00E31AC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD876101BA5242C00E31AC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD8760F1BA5242C00E31AC5 /* AirFlip.app */,
+				CFD876211BA5242D00E31AC5 /* AirFlip WatchKit App.app */,
+				CFD876301BA5242D00E31AC5 /* AirFlip WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD876111BA5242C00E31AC5 /* AirFlip */ = {
+			isa = PBXGroup;
+			children = (
+				CFD876121BA5242C00E31AC5 /* AppDelegate.swift */,
+				CFD876531BA528E300E31AC5 /* SlidesCachingViewController.swift */,
+				CFD876541BA528E300E31AC5 /* SlidesPreviewController.swift */,
+				CFD876551BA528E300E31AC5 /* SlidesViewController.swift */,
+				CFD876561BA528E300E31AC5 /* SlidesCache.swift */,
+				CFD876571BA528E300E31AC5 /* SlidesViewControllerProtocol.swift */,
+				CFD876581BA528E300E31AC5 /* SlidesImageViewController.swift */,
+				CFD876591BA528E300E31AC5 /* SlidesWebViewController.swift */,
+				CFD8765A1BA528E300E31AC5 /* SlidesWebAndImageViewsController.swift */,
+				CFD8765B1BA528E300E31AC5 /* SliderPathObjects.swift */,
+				CFD8765C1BA528E300E31AC5 /* SliderExtension.swift */,
+				CFD8765D1BA528E300E31AC5 /* SliderGlobalVar.swift */,
+				CFD876161BA5242C00E31AC5 /* Main.storyboard */,
+				CFD876191BA5242C00E31AC5 /* Assets.xcassets */,
+				CFD8761B1BA5242C00E31AC5 /* LaunchScreen.storyboard */,
+				CFD8761E1BA5242C00E31AC5 /* Info.plist */,
+			);
+			path = AirFlip;
+			sourceTree = "<group>";
+		};
+		CFD876251BA5242D00E31AC5 /* AirFlip WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CFD876261BA5242D00E31AC5 /* Interface.storyboard */,
+				CFD876291BA5242D00E31AC5 /* Assets.xcassets */,
+				CFD8762B1BA5242D00E31AC5 /* Info.plist */,
+			);
+			path = "AirFlip WatchKit App";
+			sourceTree = "<group>";
+		};
+		CFD876341BA5242D00E31AC5 /* AirFlip WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CFD876351BA5242D00E31AC5 /* InterfaceController.swift */,
+				CFD876371BA5242D00E31AC5 /* ExtensionDelegate.swift */,
+				CFD876391BA5242D00E31AC5 /* Assets.xcassets */,
+				CFD8763B1BA5242D00E31AC5 /* Info.plist */,
+				CFD876491BA525D100E31AC5 /* TrainnerRootInterfaceController.swift */,
+				CFD8764D1BA5260300E31AC5 /* TrainnerInterfaceController.swift .swift */,
+			);
+			path = "AirFlip WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CFD876731BA52B2C00E31AC5 /* GestureKit */ = {
+			isa = PBXGroup;
+			children = (
+				CFD876741BA52B2C00E31AC5 /* GKBandSensorManager.swift */,
+				CFD876751BA52B2C00E31AC5 /* GKGesture.swift */,
+				CFD876761BA52B2C00E31AC5 /* GKGestureClassifier.swift */,
+				CFD876771BA52B2C00E31AC5 /* GKGestureDataRecorder.swift */,
+				CFD876781BA52B2C00E31AC5 /* GKGestureDataStoringQueue.swift */,
+				CFD876791BA52B2C00E31AC5 /* GKGesturePattern.swift */,
+				CFD8767A1BA52B2C00E31AC5 /* GKUtilities.swift */,
+				CFD8767B1BA52B2C00E31AC5 /* HKWatchSensorManager.swift */,
+			);
+			path = GestureKit;
+			sourceTree = "<group>";
+		};
+		CFD876A01BA5311600E31AC5 /* HardwareKit */ = {
+			isa = PBXGroup;
+			children = (
+				CFD876A11BA5311600E31AC5 /* HKAccelerometerData.swift */,
+				CFD876A21BA5311600E31AC5 /* HKHandheldController.swift */,
+				CFD876A31BA5311600E31AC5 /* HKHandheldSession.swift */,
+				CFD876A41BA5311600E31AC5 /* HKWatchController.swift */,
+				CFD876A51BA5311600E31AC5 /* HKWatchSensorManagerCP.swift */,
+				CFD876A61BA5311600E31AC5 /* HKWatchSession.swift */,
+			);
+			path = HardwareKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFD8760E1BA5242C00E31AC5 /* AirFlip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD876461BA5242D00E31AC5 /* Build configuration list for PBXNativeTarget "AirFlip" */;
+			buildPhases = (
+				CFD8760B1BA5242C00E31AC5 /* Sources */,
+				CFD8760C1BA5242C00E31AC5 /* Frameworks */,
+				CFD8760D1BA5242C00E31AC5 /* Resources */,
+				CFD876451BA5242D00E31AC5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFD876241BA5242D00E31AC5 /* PBXTargetDependency */,
+			);
+			name = AirFlip;
+			productName = AirFlip;
+			productReference = CFD8760F1BA5242C00E31AC5 /* AirFlip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFD876201BA5242D00E31AC5 /* AirFlip WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD876421BA5242D00E31AC5 /* Build configuration list for PBXNativeTarget "AirFlip WatchKit App" */;
+			buildPhases = (
+				CFD8761F1BA5242D00E31AC5 /* Resources */,
+				CFD876411BA5242D00E31AC5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFD876331BA5242D00E31AC5 /* PBXTargetDependency */,
+			);
+			name = "AirFlip WatchKit App";
+			productName = "AirFlip WatchKit App";
+			productReference = CFD876211BA5242D00E31AC5 /* AirFlip WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CFD8762F1BA5242D00E31AC5 /* AirFlip WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD8763E1BA5242D00E31AC5 /* Build configuration list for PBXNativeTarget "AirFlip WatchKit Extension" */;
+			buildPhases = (
+				CFD8762C1BA5242D00E31AC5 /* Sources */,
+				CFD8762D1BA5242D00E31AC5 /* Frameworks */,
+				CFD8762E1BA5242D00E31AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AirFlip WatchKit Extension";
+			productName = "AirFlip WatchKit Extension";
+			productReference = CFD876301BA5242D00E31AC5 /* AirFlip WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFD876071BA5242C00E31AC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = SenseWatch;
+				TargetAttributes = {
+					CFD8760E1BA5242C00E31AC5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CFD876201BA5242D00E31AC5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CFD8762F1BA5242D00E31AC5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = CFD8760A1BA5242C00E31AC5 /* Build configuration list for PBXProject "AirFlip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFD876061BA5242C00E31AC5;
+			productRefGroup = CFD876101BA5242C00E31AC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFD8760E1BA5242C00E31AC5 /* AirFlip */,
+				CFD876201BA5242D00E31AC5 /* AirFlip WatchKit App */,
+				CFD8762F1BA5242D00E31AC5 /* AirFlip WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFD8760D1BA5242C00E31AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD8761D1BA5242C00E31AC5 /* LaunchScreen.storyboard in Resources */,
+				CFD8761A1BA5242C00E31AC5 /* Assets.xcassets in Resources */,
+				CFD876181BA5242C00E31AC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD8761F1BA5242D00E31AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD8762A1BA5242D00E31AC5 /* Assets.xcassets in Resources */,
+				CFD876281BA5242D00E31AC5 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD8762E1BA5242D00E31AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD8763A1BA5242D00E31AC5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFD8760B1BA5242C00E31AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD876861BA52B2C00E31AC5 /* GKGesturePattern.swift in Sources */,
+				CFD876B11BA5311600E31AC5 /* HKWatchSession.swift in Sources */,
+				CFD876AF1BA5311600E31AC5 /* HKWatchSensorManagerCP.swift in Sources */,
+				CFD876641BA528E300E31AC5 /* SlidesWebViewController.swift in Sources */,
+				CFD876521BA526D500E31AC5 /* GlobalVar.swift in Sources */,
+				CFD876621BA528E300E31AC5 /* SlidesViewControllerProtocol.swift in Sources */,
+				CFD876AD1BA5311600E31AC5 /* HKWatchController.swift in Sources */,
+				CFD876841BA52B2C00E31AC5 /* GKGestureDataStoringQueue.swift in Sources */,
+				CFD8767C1BA52B2C00E31AC5 /* GKBandSensorManager.swift in Sources */,
+				CFD876881BA52B2C00E31AC5 /* GKUtilities.swift in Sources */,
+				CFD876681BA528E300E31AC5 /* SliderGlobalVar.swift in Sources */,
+				CFD876821BA52B2C00E31AC5 /* GKGestureDataRecorder.swift in Sources */,
+				CFD876661BA528E300E31AC5 /* SliderPathObjects.swift in Sources */,
+				CFD876671BA528E300E31AC5 /* SliderExtension.swift in Sources */,
+				CFD8765F1BA528E300E31AC5 /* SlidesPreviewController.swift in Sources */,
+				CFD876511BA526D500E31AC5 /* Extensions.swift in Sources */,
+				CFD876611BA528E300E31AC5 /* SlidesCache.swift in Sources */,
+				CFD876631BA528E300E31AC5 /* SlidesImageViewController.swift in Sources */,
+				CFD8767E1BA52B2C00E31AC5 /* GKGesture.swift in Sources */,
+				CFD876601BA528E300E31AC5 /* SlidesViewController.swift in Sources */,
+				CFD876131BA5242C00E31AC5 /* AppDelegate.swift in Sources */,
+				CFD876AB1BA5311600E31AC5 /* HKHandheldSession.swift in Sources */,
+				CFD8768A1BA52B2C00E31AC5 /* HKWatchSensorManager.swift in Sources */,
+				CFD876A71BA5311600E31AC5 /* HKAccelerometerData.swift in Sources */,
+				CFD876A91BA5311600E31AC5 /* HKHandheldController.swift in Sources */,
+				CFD8765E1BA528E300E31AC5 /* SlidesCachingViewController.swift in Sources */,
+				CFD876801BA52B2C00E31AC5 /* GKGestureClassifier.swift in Sources */,
+				CFD876651BA528E300E31AC5 /* SlidesWebAndImageViewsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD8762C1BA5242D00E31AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD876AE1BA5311600E31AC5 /* HKWatchController.swift in Sources */,
+				CFD876871BA52B2C00E31AC5 /* GKGesturePattern.swift in Sources */,
+				CFD8764A1BA525D100E31AC5 /* TrainnerRootInterfaceController.swift in Sources */,
+				CFD8767F1BA52B2C00E31AC5 /* GKGesture.swift in Sources */,
+				CFD876381BA5242D00E31AC5 /* ExtensionDelegate.swift in Sources */,
+				CFD8768B1BA52B2C00E31AC5 /* HKWatchSensorManager.swift in Sources */,
+				CFD876811BA52B2C00E31AC5 /* GKGestureClassifier.swift in Sources */,
+				CFD876891BA52B2C00E31AC5 /* GKUtilities.swift in Sources */,
+				CFD8764E1BA5260300E31AC5 /* TrainnerInterfaceController.swift .swift in Sources */,
+				CFD876B21BA5311600E31AC5 /* HKWatchSession.swift in Sources */,
+				CFD876AC1BA5311600E31AC5 /* HKHandheldSession.swift in Sources */,
+				CFD876AA1BA5311600E31AC5 /* HKHandheldController.swift in Sources */,
+				CFD8767D1BA52B2C00E31AC5 /* GKBandSensorManager.swift in Sources */,
+				CFD876361BA5242D00E31AC5 /* InterfaceController.swift in Sources */,
+				CFD876A81BA5311600E31AC5 /* HKAccelerometerData.swift in Sources */,
+				CFD876B01BA5311600E31AC5 /* HKWatchSensorManagerCP.swift in Sources */,
+				CFD876851BA52B2C00E31AC5 /* GKGestureDataStoringQueue.swift in Sources */,
+				CFD876831BA52B2C00E31AC5 /* GKGestureDataRecorder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFD876241BA5242D00E31AC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFD876201BA5242D00E31AC5 /* AirFlip WatchKit App */;
+			targetProxy = CFD876231BA5242D00E31AC5 /* PBXContainerItemProxy */;
+		};
+		CFD876331BA5242D00E31AC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFD8762F1BA5242D00E31AC5 /* AirFlip WatchKit Extension */;
+			targetProxy = CFD876321BA5242D00E31AC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFD876161BA5242C00E31AC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD876171BA5242C00E31AC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFD8761B1BA5242C00E31AC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD8761C1BA5242C00E31AC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CFD876261BA5242D00E31AC5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD876271BA5242D00E31AC5 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFD8763C1BA5242D00E31AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFD8763D1BA5242D00E31AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFD8763F1BA5242D00E31AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "AirFlip WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.AirFlip.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		CFD876401BA5242D00E31AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "AirFlip WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.AirFlip.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		CFD876431BA5242D00E31AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = AirFlip_WatchKit_Extension;
+				INFOPLIST_FILE = "AirFlip WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.AirFlip.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		CFD876441BA5242D00E31AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = AirFlip_WatchKit_Extension;
+				INFOPLIST_FILE = "AirFlip WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.AirFlip.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		CFD876471BA5242D00E31AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AirFlip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.AirFlip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-header.h";
+			};
+			name = Debug;
+		};
+		CFD876481BA5242D00E31AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AirFlip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SenseWatch.AirFlip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFD8760A1BA5242C00E31AC5 /* Build configuration list for PBXProject "AirFlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD8763C1BA5242D00E31AC5 /* Debug */,
+				CFD8763D1BA5242D00E31AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD8763E1BA5242D00E31AC5 /* Build configuration list for PBXNativeTarget "AirFlip WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD8763F1BA5242D00E31AC5 /* Debug */,
+				CFD876401BA5242D00E31AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFD876421BA5242D00E31AC5 /* Build configuration list for PBXNativeTarget "AirFlip WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD876431BA5242D00E31AC5 /* Debug */,
+				CFD876441BA5242D00E31AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFD876461BA5242D00E31AC5 /* Build configuration list for PBXNativeTarget "AirFlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD876471BA5242D00E31AC5 /* Debug */,
+				CFD876481BA5242D00E31AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFD876071BA5242C00E31AC5 /* Project object */;
+}
